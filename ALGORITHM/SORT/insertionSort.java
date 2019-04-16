@@ -34,15 +34,11 @@ class Algorithm
          //set up a new value for key - move left on 1 position
          key = arr[j-1];
      }
-         System.out.println ("inside loop:"+step+"."+j+"; key="+key);
-       j--;
       }
-       show(arr);
+
        }
      return arr;
  }
-     //STEP
-
     
     
 }  
