@@ -1,5 +1,5 @@
 //INSERTION SORT
-//2019-Apr-10
+//2019-Apr-16
 class Algorithm
 {       
   public void show(int[] arr)
@@ -14,50 +14,31 @@ class Algorithm
 
  public int[] insertionSort(int[] arr)
  {
-     int step;
+   //  int step;  
      int j;
      int key;
      
      //STEP
-     step = 1;
-     j=0;
-     key=arr[step-1];        
+       for( int step=1; step <= arr.length-1; step++)
+       {
+         j=step;
+         key=arr[j];        
 
-     while(j < step)
+      while(j > 0)  
+      {
+     if (arr[j-1]>key)
      {
-         
-     if (key>arr[j+1])
-     {
-         int tmp = arr[j+1];         
-         key = arr[j];
+         int tmp = arr[j-1];                  
+         arr[j-1] = key;
          arr[j] = tmp;
-         arr[j+1] = key;
+         //set up a new value for key - move left on 1 position
+         key = arr[j-1];
      }
          System.out.println ("inside loop:"+step+"."+j+"; key="+key);
-       j++;
-     }
+       j--;
+      }
        show(arr);
-     
-     //STEP
-     step = 2;
-     j=0;
-     key=arr[step-1];        
-
-     while(j < step)
-     {
-         
-     if (key>arr[j+1])
-     {
-         int tmp = arr[j+1];         
-         key = arr[j];
-         arr[j] = tmp;
-         arr[j+1] = key;
-     }
-         System.out.println ("inside loop:"+step+"."+j+"; key="+key);
-       j++;
-     }     
-     show(arr);
-     
+       }
      return arr;
  }
      //STEP
@@ -71,6 +52,7 @@ public class MainClass {
         int [] arr = new int[]{15,4,3,1,0};
     algor.show(arr);
     int[] sortedArr = algor.insertionSort(arr);
+    System.out.println ("-----------");
     algor.show(sortedArr);
     }
 }
