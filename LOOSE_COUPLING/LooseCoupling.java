@@ -27,7 +27,7 @@ class HardWorker implements IWorker{
 class MediumWorker implements IWorker{
     public void work()
     {
-        System.out.println("I am hard medium");
+        System.out.println("I am medium worker");
     }
 }
 class Manager{
