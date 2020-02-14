@@ -3,5 +3,6 @@
 ##STACK
 1. It allow access one element at a time. When an element is removed than you access next one
 2. LIFO
-3. Examples: when you take your letters from post box you verify them one by one from the top. So, you take first the late arrived emails
+3. Example1: when you take your letters from post box you verify them one by one from the top. So, you take first the late arrived emails
     note: if a person take mails from the bottom  it's QUEUE, if prioritize - PRIORITY QUEUE
+4. Example2: you have long running project A. You boss came and asked do a report, you started to report then you got a call. You stopped doing report and answered call. It's a example of QUEUE (LIFO)
