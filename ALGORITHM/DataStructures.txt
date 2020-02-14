@@ -7,5 +7,6 @@
     note: if a person take mails from the bottom  it's QUEUE, if prioritize - PRIORITY QUEUE
 4. Example2: you have long running project A. You boss came and asked do a report, you started to report then you got a call. You stopped doing report and answered call. It's a example of QUEUE (LIFO)
 
-PUSHING - put elements on the top
-POPPING - remove elements from the top
+PUSH- put elements on the top of stack
+POP - remove elements from the top of stack
+PEEK - read element from the top without removing
