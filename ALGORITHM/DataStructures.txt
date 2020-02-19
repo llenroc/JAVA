@@ -10,3 +10,12 @@
 PUSH- put elements on the top of stack
 POP - remove elements from the top of stack
 PEEK - read element from the top without removing
+
+
+##QUEUE
+
+for Queue is used old terminology compared to stack
+ENQUEUE - insert element into the front (head) of queue
+DEQUEU - remove element from the rear (end) of queue
+FRONT - head of queue
+REAR - end of queue
