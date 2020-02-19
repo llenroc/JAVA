@@ -19,3 +19,5 @@ ENQUEUE - insert element into the front (head) of queue
 DEQUEU - remove element from the rear (end) of queue
 FRONT - head of queue
 REAR - end of queue
+
+#CIRQULAR QUEUE = RING BUFFER - to aviod problem when you can not insert more items in the queue when it is not full Rear and Front WRAPS AROUND to the beginning of array
