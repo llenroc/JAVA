@@ -13,7 +13,7 @@ PEEK - read element from the top without removing
 
 
 ##QUEUE
-
+Queue is a linear data structure which follows particaular order in which the operations are performed- FIFO
 for Queue is used old terminology compared to stack
 ENQUEUE - insert element into the front (head) of queue
 DEQUEU - remove element from the rear (end) of queue
