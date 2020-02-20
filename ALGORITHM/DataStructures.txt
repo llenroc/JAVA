@@ -22,3 +22,6 @@ REAR - end of queue
 
 #Examples - 1. when resource is shared among accrossed multiple resources like CPU, Scheduling
 #CIRQULAR QUEUE = RING BUFFER - to aviod problem when you can not insert more items in the queue when it is not full Rear and Front WRAPS AROUND to the beginning of array
+
+Implementations:
+1. [ARRAY implementation] - we need to keep track of Front and Rear indices. We need to increase it in a circular manner(!)
