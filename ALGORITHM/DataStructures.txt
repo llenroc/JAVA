@@ -15,9 +15,10 @@ PEEK - read element from the top without removing
 ##QUEUE
 Queue is a linear data structure which follows particaular order in which the operations are performed- FIFO
 for Queue is used old terminology compared to stack
-ENQUEUE - insert element into the front (head) of queue
+ENQUEUE - insert element into the front (head) of queue. If the Queue is empty then it throws overflow condition
 DEQUEU - remove element from the rear (end) of queue
 FRONT - head of queue
 REAR - end of queue
 
+#Examples - 1. when resource is shared among accrossed multiple resources like CPU, Scheduling
 #CIRQULAR QUEUE = RING BUFFER - to aviod problem when you can not insert more items in the queue when it is not full Rear and Front WRAPS AROUND to the beginning of array
