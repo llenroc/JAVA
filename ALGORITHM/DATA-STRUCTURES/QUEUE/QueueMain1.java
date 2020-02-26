@@ -46,6 +46,10 @@ class Queue {
         nItems--;
         return value;
     }
+    
+     public int peek() {
+        return arr[front];
+    }
 }
 
 public class QueueMain1 {
@@ -75,7 +79,6 @@ public class QueueMain1 {
            60
            70
            80
-
          * 
          */
     }
