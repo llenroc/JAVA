@@ -1,0 +1,84 @@
+/*
+ * THe task is to create stack from Queue
+ *  For this task we will use Deque = double ended queue 
+ *  and methods [righInsert] and [rightRemove] to implement LIFO
+ * */
+
+class Deque {
+    private int maxSize;
+    private int[] arr;
+    private int frontIndex;
+    private int numberOfElement;
+
+    public Deque(int sizeOfArray) {
+        maxSize = sizeOfArray;
+        arr = new int[sizeOfArray];
+        frontIndex = -1;
+        numberOfElement = 0;
+    }
+
+    // =insertRight method
+    public void push(int value) {
+        if (isFull()) {
+            System.out.print("Overflow");
+        } else {
+            if (frontIndex == maxSize) {
+                frontIndex = 0;
+            }
+            arr[++frontIndex] = value;
+            numberOfElement++;
+        }
+    }
+
+    // =removeRight method
+    public int pop() {
+        int valueOut;
+        if (isEmpty()) {
+            System.out.print("Underflow");
+            return -999;
+        } else {
+            if (frontIndex == maxSize) {
+                frontIndex = frontIndex - 1;
+            }
+            valueOut = arr[frontIndex];
+            frontIndex = frontIndex - 1;
+            numberOfElement--;
+            return valueOut;
+        }
+
+    }
+
+    public boolean isEmpty() {
+        return (numberOfElement == 0);
+    }
+
+    public boolean isFull() {
+        return (numberOfElement == maxSize);
+    }
+}
+
+public class StackFromQueue {
+    public static void main(String[] args) {
+        Deque stack = new Deque(5);
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.push(50);
+        stack.push(60);
+        stack.push(70);
+        stack.push(80);
+        while (!stack.isEmpty()) {
+            System.out.println(stack.pop());
+        }
+
+        /**
+         * Output: 80 70 60 50 10
+         * 
+         * 
+         */
+    }
+}
