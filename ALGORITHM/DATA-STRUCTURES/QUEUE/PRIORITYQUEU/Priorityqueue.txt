@@ -1,0 +1,69 @@
+class Priorityqueue {
+    private int maxSize;
+    private int numberOfElements;
+    public int[] arr;
+
+    public Priorityqueue(int maxSize) {
+        arr = new int[maxSize];
+        numberOfElements = 0;
+    }
+
+    public boolean isEmpty() {
+        return (numberOfElements == 0);
+    }
+
+    public boolean isFull() {
+        return (numberOfElements == maxSize - 1);
+    }
+
+    public void enque(int value) {
+        if (!isFull()) {
+            if (isEmpty()) {
+                arr[0] = value;
+                numberOfElements++;
+            } else {
+                arr[numberOfElements++] = value; // add new element to the end of array
+                // bubble sort in descending order - moving the new element to the right place
+                for (int j = numberOfElements - 1; j >= 1; j--) {
+                    if (arr[j] > arr[j - 1]  ) {
+                        int tmpElement = arr[j - 1];
+                        arr[j - 1] = arr[j];
+                        arr[j] = tmpElement;
+                    }
+                }
+
+            }
+        }
+    }
+
+    public int peek() {
+        int valueOut = arr[--numberOfElements]; //taking elements from the end, because it is in adescending order
+        return valueOut;
+    }
+}
+
+public class PriorityqueueMain1 {
+
+    public static void main(String[] args) {
+        int maxSize = 6;
+        Priorityqueue priorityqueue = new Priorityqueue(maxSize);
+
+        priorityqueue.enque(5);
+        priorityqueue.enque(12);
+        priorityqueue.enque(1);
+        priorityqueue.enque(4);
+        priorityqueue.enque(0);
+        priorityqueue.enque(2);
+
+        while (!priorityqueue.isEmpty()) {
+            System.out.println(priorityqueue.peek());
+        }
+
+        /*
+         * output:
+         * 0 1 2 4 5 12
+         * 
+         * */
+    }
+
+}
