@@ -28,6 +28,8 @@ Implementations:
 
 
 ##LINKED LIST
+LnkedList is is a linear data structure where each element is a separate object.
+
 
 #Example1 It’s more like human relations. Maybe you ask Harry where Bob is. Harry
 doesn’t know, but he thinks Jane might know, so you go and ask Jane. Jane saw Bob
