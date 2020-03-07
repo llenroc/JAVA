@@ -43,6 +43,7 @@ Types:
  - single linked list - it has a reference to next node
  - double linked list - it has a reference to next node and previous node
  - circular linked list - last node points to the first node
+ - Head of the LinkedList only contains the Address of the First element of the List.
  
 #Example1 It’s more like human relations. Maybe you ask Harry where Bob is. Harry
 doesn’t know, but he thinks Jane might know, so you go and ask Jane. Jane saw Bob
