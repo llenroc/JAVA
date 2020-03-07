@@ -31,6 +31,17 @@ Implementations:
 LnkedList is is a linear data structure where each element is a separate object.
 Node - is each element
 
+Types:
+ - single linked list - it has a reference to next node
+ - double linked list - it has a reference to next node and previous node
+ - circular linked list - last node points to the first node
+ 
 #Example1 It’s more like human relations. Maybe you ask Harry where Bob is. Harry
 doesn’t know, but he thinks Jane might know, so you go and ask Jane. Jane saw Bob
 leave the office with Sally, so you call Sally’s cell phone. She
+
+
++:
+-:
+1.  disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at the head and follow the references until you get to that item.
+2. It uses more memory compard to array. It needs space to store reference "next" - 4 bytes
