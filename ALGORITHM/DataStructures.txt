@@ -25,3 +25,10 @@ REAR - end of queue
 
 Implementations:
 1. [ARRAY implementation] - we need to keep track of Front and Rear indices. We need to increase it in a circular manner(!)
+
+
+##LINKED LIST
+
+#Example1 It’s more like human relations. Maybe you ask Harry where Bob is. Harry
+doesn’t know, but he thinks Jane might know, so you go and ask Jane. Jane saw Bob
+leave the office with Sally, so you call Sally’s cell phone. She
