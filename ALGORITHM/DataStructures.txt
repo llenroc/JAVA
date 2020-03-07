@@ -1,7 +1,8 @@
 # ARRAY
 
 +:
-
+ 1. simple data structure
+ 2. very fast access the element of array (by index)
 -:
  1. you can not size of array once it's created
 
