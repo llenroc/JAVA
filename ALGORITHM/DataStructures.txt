@@ -1,4 +1,9 @@
+# ARRAY
 
++:
+
+-:
+ 1. you can not size of array once it's created
 
 ##STACK
 1. It allow access one element at a time. When an element is removed than you access next one
