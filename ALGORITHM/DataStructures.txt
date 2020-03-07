@@ -34,10 +34,11 @@ Implementations:
 
 
 ##LINKED LIST
-LnkedList is is a linear data structure where each element is a separate object.
-Node - is each element. 
-Node has 2 elements: data and address(reference to next node)
-
+ -LnkedList is is a linear data structure where each element is a separate object.
+ -Node - is each element. 
+ -Node has 2 elements: data and address(reference to next node)
+ -the first Node - is a head Node
+ 
 Types:
  - single linked list - it has a reference to next node
  - double linked list - it has a reference to next node and previous node
