@@ -10,5 +10,8 @@ https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-
 --top algorithm 20 problems:
 https://www.geeksforgeeks.org/top-20-greedy-algorithms-interview-questions/amp/?ref=rp
 
+--top algorithm 100 problems:
+https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-programmers.html?m=1
+
 --google interview questions:
 https://www.coriers.com/the-interview-study-guide-for-data-engineers/
