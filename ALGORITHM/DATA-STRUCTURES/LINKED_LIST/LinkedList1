@@ -1,0 +1,50 @@
+/* 2020-Apr-28. Oleksii Saiun
+ * Classic implementation of LinkedList
+ * */
+class Node {
+    String value;
+    Node next;
+
+    Node(String value) {
+        this.value = value;
+    }
+
+    public void display() {
+        System.out.print(" " + value + " ");
+    }
+}
+
+class LinkedList {
+    Node head;
+
+    public void insertFirst(String value) {
+        Node node = new Node(value);
+        node.next = head;
+        head = node;
+    }
+
+    public void displayAll() {
+        Node current = head;
+        while (current != null) {
+            current.display();
+            current = current.next;
+        }
+        System.out.println();
+    }
+}
+
+public class LinkedList1 {
+
+    public static void main(String[] args) {
+
+        LinkedList link = new LinkedList();
+        link.insertFirst("a");
+        link.insertFirst("b");
+        link.insertFirst("c");
+        link.insertFirst("d");
+        link.insertFirst("e");
+        
+        link.displayAll();
+    }
+
+}
