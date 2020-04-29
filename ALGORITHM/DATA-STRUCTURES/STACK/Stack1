@@ -1,0 +1,37 @@
+
+class Calc
+{
+    private int x;
+    private int y;
+    private String z;
+    Calc()
+    {        
+    }
+    
+    Calc(int x)
+    {     
+        this.x=x;
+    }
+    
+    public Calc(int y, String z) {
+        this(10);
+        this.y = y;
+        this.z = z;
+    }
+
+    @Override
+    public String toString() {
+        return "Calc [x=" + x + ", y=" + y + ", z=" + z + "]";
+    }
+    
+    
+}
+public class Stack1 {
+
+    public static void main(String[] args) {
+        Calc calc = new Calc(20,"abc");
+        calc.toString();
+        System.out.print(calc);
+    }
+
+}
