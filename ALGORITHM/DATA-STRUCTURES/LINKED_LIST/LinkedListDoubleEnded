@@ -100,4 +100,10 @@ public class LinkedListDoubleEnded {
         list.displayAll();
 
     }
+    /*
+     * Output:
+     * {66} {44} {22} {11} {33} {55} 
+     * {22} {11} {33} {55} 
+     * 
+     */
 }
