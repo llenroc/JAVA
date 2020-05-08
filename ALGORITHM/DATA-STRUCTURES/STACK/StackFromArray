@@ -1,0 +1,59 @@
+
+/**
+ * 2020-May-07/ Oleksii Saiun Queue implementation based on array 
+ * 
+ * LIFO = Last Input First Output
+ */
+class Stack {
+    int maxSize;
+    int top;
+    int[] arr;
+
+    public Stack(int sizeOfStack) {
+        maxSize = sizeOfStack;
+        top = -1;
+        arr = new int[maxSize];
+    }
+
+    public void push(int value) {
+        if (!isFull()) {
+            arr[++top] = value;
+        } else {
+            System.out.println("Stack is full");
+        }
+    }
+
+    public int pop() {
+        return arr[top--];
+    }
+
+    public int peek() {
+        return arr[top];
+    }
+
+    public boolean isEmpty() {
+        return top < 0;
+    }
+
+    public boolean isFull() {
+        return top == maxSize - 1;
+    }
+}
+
+public class StackMain1 {
+    public static void main(String[] args) {
+        Stack stack = new Stack(5);
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        stack.push(50);
+        stack.push(60);
+        while (!stack.isEmpty()) {
+            System.out.println(stack.pop());
+        }
+        /*
+         * Out: 50 40 30 20 10
+         */
+    }
+}
