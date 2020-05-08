@@ -1,0 +1,103 @@
+
+/*2020-May-08. Oleksii Saiun
+ * "double-ended linked list"
+ * (!) don't confuse "double-ended LinkedList" with "doubly LinkedList"
+ * 
+ * A double-ended list is similar to an ordinary linked list, but it has one additional
+ * feature: a reference to the last link as well as to the first
+ * 
+ * it does have deleteLast method
+ * */
+class Node {
+    String value;
+    Node next;
+
+    Node(String value) {
+        this.value = value;
+    }
+
+    public void display() {
+        System.out.print("{" + value + "} ");
+    }
+}
+
+class LinkedList {
+    Node head;
+    Node tail;
+
+    public void insertFirst(String value) {
+        Node node = new Node(value);
+        if (isEmpty()) {
+            head = node;
+            tail = node;
+        } else {
+            node.next = head;
+            head = node;
+        }
+    }
+
+    public void deleteFirst() {
+        if (!isEmpty()) {
+            if (head.next == null) // check if one element
+            {
+                head = null;
+                tail = null;
+            } else {
+                head = head.next;
+                tail = head;
+            }
+        }
+    }
+
+    public void insertLast(String value) {
+        Node node = new Node(value);
+        if (isEmpty()) {
+            head = node;
+            tail = node;
+        } else {
+            tail.next = node;
+            tail = node;
+        }
+    }
+
+    public void deleteLast() {
+        if (!isEmpty()) {
+            head = head.next;
+            tail = head;
+        }
+    }
+
+    public void displayAll() {
+        if (!isEmpty()) {
+            Node currentNode = head;
+            while (currentNode != null) {
+                currentNode.display();
+                currentNode = currentNode.next;
+            }
+        } else {
+            System.out.println("Empty");
+        }
+        System.out.println();
+    }
+
+    public boolean isEmpty() {
+        return head == null;
+    }
+}
+
+public class LinkedListDoubleEnded {
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
+        list.insertFirst("22");
+        list.insertFirst("44");
+        list.insertFirst("66");
+        list.insertLast("11");
+        list.insertLast("33");
+        list.insertLast("55");
+        list.displayAll();
+        list.deleteFirst();
+        list.deleteFirst();
+        list.displayAll();
+
+    }
+}
