@@ -28,7 +28,7 @@ class Queue {
         return (nItems == maxSize);
     }
 
-    public void enque(int value) {
+    public void enqueue(int value) {
         if (!isFull()) {
             if (rear == maxSize - 1) {
                 rear = -1;
@@ -40,7 +40,7 @@ class Queue {
         }
     }
 
-    public int deque() {
+    public int dequeue() {
         int value = arr[front++];
         if (front == maxSize) {
             front = 0;
@@ -58,17 +58,17 @@ public class QueueMain1 {
 
     public static void main(String[] args) {
         Queue queue = new Queue(5);
-        queue.enque(10);
-        queue.enque(20);
-        queue.enque(30);
-        queue.enque(40);
-        queue.deque();
-        queue.deque();
-        queue.deque();
-        queue.enque(50);
-        queue.enque(60);
-        queue.enque(70);
-        queue.enque(80);
+        queue.enqueue(10);
+        queue.enqueue(20);
+        queue.enqueue(30);
+        queue.enqueue(40);
+        queue.dequeue();
+        queue.dequeue();
+        queue.dequeue();
+        queue.enqueue(50);
+        queue.enqueue(60);
+        queue.enqueue(70);
+        queue.enqueue(80);
 
         while (!queue.isEmpty()) {
             System.out.println(queue.deque());
