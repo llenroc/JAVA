@@ -6,51 +6,53 @@
  Queue -[FIFO]
  * */
 class Queue {
-    private int maxSize;
-    private int[] arr;
-    private int rear;
-    private int front;
-    private int nItems;
+    int maxSize;
+    int numberOfElements;
+    int front;
+    int rear;
+    int[] arr;
 
-    public Queue(int sizeOfQueue) {
+    Queue(int sizeOfQueue) {
         maxSize = sizeOfQueue;
-        arr = new int[maxSize];
+        numberOfElements = 0;
         rear = -1;
         front = 0;
-        nItems = 0;
+        arr = new int[maxSize];
     }
 
-    public boolean isEmpty() {
-        return (nItems == 0);
-    }
-
-    public boolean isFull() {
-        return (nItems == maxSize);
-    }
-
-    public void enqueue(int value) {
+    // insert elements at the rear of queue
+    public void enqueueElement(int value) {
         if (!isFull()) {
-            if (rear == maxSize - 1) {
-                rear = -1;
-            }
+
             arr[++rear] = value;
-            nItems++;
+            numberOfElements++;
+            if(rear== maxSize-1)
+            {
+                rear=-1;
+            }
         } else {
             System.out.println("Queue is full!");
         }
     }
 
-    public int dequeue() {
-        int value = arr[front++];
-        if (front == maxSize) {
-            front = 0;
+    // return elements from the front of queue
+    public int dequeueElement() {
+        int out = arr[front++];
+        if(front== maxSize)
+        {
+            front=0;
         }
-        nItems--;
-        return value;
+
+        numberOfElements--;
+        return out;
     }
-    
-     public int peek() {
-        return arr[front];
+
+    public boolean isEmpty() {
+        return (numberOfElements == 0);
+    }
+
+    public boolean isFull() {
+        return (numberOfElements == maxSize );
     }
 }
 
@@ -58,22 +60,21 @@ public class QueueMain1 {
 
     public static void main(String[] args) {
         Queue queue = new Queue(5);
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
-        queue.enqueue(40);
-        queue.dequeue();
-        queue.dequeue();
-        queue.dequeue();
-        queue.enqueue(50);
-        queue.enqueue(60);
-        queue.enqueue(70);
-        queue.enqueue(80);
-
+        queue.enqueueElement(10);
+        queue.enqueueElement(20);
+        queue.enqueueElement(30);
+        queue.enqueueElement(40);
+        queue.dequeueElement();
+        queue.dequeueElement();
+        queue.dequeueElement();
+        queue.enqueueElement(50);
+        queue.enqueueElement(60);
+        queue.enqueueElement(70);
+        queue.enqueueElement(80);
+     
         while (!queue.isEmpty()) {
-            System.out.println(queue.deque());
+            System.out.println(queue.dequeueElement());
         }
-
         /**
          * Output:
          * 40
@@ -84,5 +85,5 @@ public class QueueMain1 {
          * 
          */
     }
-
+   
 }
