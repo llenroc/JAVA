@@ -1,0 +1,72 @@
+class Node {
+    String value;
+    Node next;
+
+    Node(String value) {
+        this.value = value;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+}
+
+class LinkedList {
+    Node head;
+
+    public void insertFirst(String value) {
+        Node node = new Node(value);
+        node.next = head;
+        head = node;
+    }
+
+    public Node deleteFirst() {
+        Node outNode;
+        outNode = head;
+        head = head.next;
+        return outNode;
+    }
+
+    public boolean isEmpty() {
+        return head == null;
+    }
+
+}
+
+class StackLinkedList {
+    LinkedList theList = new LinkedList();
+
+    public void push(String value) {
+        theList.insertFirst(value);
+    }
+
+    public String pop() {
+        return theList.deleteFirst().getValue();
+    }
+
+    public boolean isEmpty() {
+        return theList.isEmpty();
+    }
+}
+
+public class StackFromLinkedList1 {
+
+    public static void main(String[] args) {
+
+        StackLinkedList stack = new StackLinkedList();
+        stack.push("1");
+        stack.push("2");
+        stack.push("3");
+        stack.push("4");
+        stack.push("5");
+
+        while (!stack.isEmpty()) {
+            System.out.print("{" + stack.pop() + "} ");
+        }
+/*
+ * {5} {4} {3} {2} {1} 
+ * */
+    }
+
+}
