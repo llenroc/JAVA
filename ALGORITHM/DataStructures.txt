@@ -57,5 +57,4 @@ leave the office with Sally, so you call Sally’s cell phone. She
 
 
 ##ADT
-Abstract Data Types (ADTs). ADT, roughly speaking, it’s a way of looking at a data structure: focusing on what it does and ignoring how it does its job.
-For examplem implementing Qeueu by LinkedList
+Abstract Data Types (ADTs). ADT, roughly speaking, it’s a way of looking at a data structure: focusing on what it does and ignoring how it does its job. Stacks and queues are examples of ADTs. Stack and Queue can be implemented by LinkedList
