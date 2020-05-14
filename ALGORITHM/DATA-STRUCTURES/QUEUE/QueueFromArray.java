@@ -1,6 +1,6 @@
 /*
  * Implementation of Cirqular Queue (Ring Buffer)
- * It's a classic implementation. It is used wrap around approach to reset [front] and [rear]
+ * It's a classic implementation of Queue from [array]. It is used wrap around approach to reset [front] and [rear]
  * counters when it reaches out max 
  
  Queue -[FIFO]
