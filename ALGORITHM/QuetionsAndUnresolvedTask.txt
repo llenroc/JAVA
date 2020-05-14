@@ -1,0 +1,2 @@
+#1.
+1. Implement Queue, Stack, LinkedList for Class Employee {name, age, salary}
