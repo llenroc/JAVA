@@ -28,10 +28,9 @@ class LinkedList {
         Node previousNode = null;
         Node currentNode = head;
 
-        if (isEmpty())
-        {
-            newNode.next=newNode;
-            head=newNode;
+        if (isEmpty()) {
+            newNode.next = head;
+            head = newNode;
         }
         while (currentNode != null && value > currentNode.getValue()) {
             previousNode = currentNode;
