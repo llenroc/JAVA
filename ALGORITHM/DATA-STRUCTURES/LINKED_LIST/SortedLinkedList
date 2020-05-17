@@ -1,1 +1,84 @@
 
+/*2020-May-16. Oleksii Saiun
+ * "Sorted single linked list"
+ * */
+class Node {
+    int value;
+    Node next;
+
+    Node(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void display() {
+        System.out.print(" " + value + " ");
+    }
+
+}
+
+class LinkedList {
+    Node head;
+
+    public void insertFirst(int value) {
+        Node newNode = new Node(value);
+        Node previousNode = null;
+        Node currentNode = head;
+
+        if (isEmpty())
+        {
+            newNode.next=newNode;
+            head=newNode;
+        }
+        while (currentNode != null && value > currentNode.getValue()) {
+            previousNode = currentNode;
+            currentNode = currentNode.next;
+        }
+        if (previousNode == null) {
+            head = newNode;
+        } else {
+            previousNode.next = newNode;
+            newNode.next = currentNode;
+        }
+        
+     
+
+    }
+
+    public void displayAll() {
+        Node current = head;
+        while (current != null) {
+            current.display();
+            current = current.next;
+        }
+        System.out.println();
+    }
+
+    public boolean isEmpty() {
+        return (head == null);
+    }
+}
+
+public class SortedLinkedList {
+
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
+        list.insertFirst(0);
+        list.insertFirst(7);
+        list.insertFirst(-1);
+        list.insertFirst(5);
+        list.insertFirst(1);
+        list.insertFirst(2);
+        list.insertFirst(3);
+        list.insertFirst(2);
+        list.insertFirst(7);
+        list.insertFirst(4);
+
+        list.displayAll();
+
+    }
+
+}
