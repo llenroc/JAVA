@@ -22,7 +22,7 @@ PEEK - read element from the top without removing
 Queue is a linear data structure which follows particaular order in which the operations are performed- FIFO
 for Queue is used old terminology compared to stack
 ENQUEUE - insert element into the front (head) of queue. If the Queue is empty then it throws overflow condition
-DEQUEU - remove element from the rear (end) of queue
+DEQUEU - remove element from the rear (end) of queue. [Doubly linked list] can de used to implement dequeu
 FRONT - head of queue
 REAR - end of queue
 
@@ -49,7 +49,8 @@ Types:
    O(1) time, because it's in a beginning. Insertion and deletion tak O(N) time
  - "doubly ended linked list" - each node has a referece to next and previous node
     pros:
-      -- single linked list doe not allow to move backward. "doubly ended linked list" allows
+      -- single linked list does not allow to move backward. "doubly ended linked list" allows
+      -- [Doubly linked list] can de used to implement dequeu
     cons:
       -- more memory consumption, because each node keeps 2 references
  
