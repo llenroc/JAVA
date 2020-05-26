@@ -1,5 +1,5 @@
-/*2020-May-26. Oleksii Saiun
- * "doubly linked list"
+/*2020-May-26. Oleksii Saiun. Example of [Double ended [doubly linked list]]
+ * "doubly linked list" can be single without reference to the tail
  * (!) don't confuse "double-ended LinkedList" with "doubly LinkedList"
  * in a doubly liked list each node has reference to next and previous node;
  * */
@@ -74,7 +74,7 @@ class LinkedList {
     }
 }
 
-public class DoublyLinkedList {
+public class DoubleEnded_DoublyLinkedList {
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
