@@ -1,3 +1,6 @@
+--Big-O:
+https://www.bigocheatsheet.com/
+
 --Video about Data Structures:
 https://www.youtube.com/watch?v=PvDoT79oHTs&list=PLsyeobzWxl7oRKwDi7wjrANsbhTX0IK0J&index=13&app=desktop
 
