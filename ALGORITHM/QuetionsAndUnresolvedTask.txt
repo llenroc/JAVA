@@ -3,3 +3,7 @@
 
 #2.
 How correctly call method of Queue? How call peek() method?
+
+#3.
+LinkeedList implement for entity Person
+
