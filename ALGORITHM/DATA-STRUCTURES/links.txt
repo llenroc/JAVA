@@ -23,3 +23,6 @@ https://www.coriers.com/the-interview-study-guide-for-data-engineers/
 --Tree and  Traversing
 https://www.youtube.com/watch?v=BHB0B1jFKQc&app=desktop
 https://www.java67.com/2016/07/how-to-implement-preorder-traversal-of-binary-tree-in-java.html?m=1
+
+--top Tree interview questions
+https://medium.com/@codingfreak/binary-tree-interview-questions-and-practice-problems-439df7e5ea1f
