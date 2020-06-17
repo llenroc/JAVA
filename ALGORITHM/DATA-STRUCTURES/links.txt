@@ -31,3 +31,10 @@ https://www.interviewbit.com/courses/programming/topics/tree-data-structure/
 
 -- graph
 https://www.interviewbit.com/courses/programming/topics/graph-data-structure-algorithms/
+
+
+--reverse String by 2 methods: recursion and iterative
+https://javarevisited.blogspot.com/2012/01/how-to-reverse-string-in-java-using.html
+
+--print Fibonacci by 2 methods: recursion and iterative
+https://javarevisited.blogspot.com/2015/01/print-fibonacci-series-in-java-using.html
