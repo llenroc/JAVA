@@ -42,3 +42,7 @@ https://javarevisited.blogspot.com/2012/01/how-to-reverse-string-in-java-using.h
 
 --print Fibonacci by 2 methods: recursion and iterative
 https://javarevisited.blogspot.com/2015/01/print-fibonacci-series-in-java-using.html
+
+--Amazon
+https://theinterviewguys.com/amazon-interview-questions/
+
