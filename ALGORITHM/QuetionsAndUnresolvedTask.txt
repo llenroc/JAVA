@@ -9,3 +9,6 @@ LinkeedList implement for entity Person
 
 #4.
 Linked List - implement Iterator
+
+5.
+Linked List. Huffman Code
