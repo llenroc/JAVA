@@ -1,0 +1,136 @@
+/*2020-Jun-22. Oleksii Saiun.
+ * HashTable
+ * Linear probing - avoiding collision
+ * 
+ * */
+class DataItem {
+    private int value;
+
+    DataItem(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void display() {
+        System.out.print(value + " ");
+    }
+}
+
+class HashTable {
+    DataItem[] arr;
+    int arraySize;
+
+    HashTable(int arraySize) {
+        this.arraySize = arraySize;
+        arr = new DataItem[arraySize];
+    }
+
+    public boolean isEmpty() {
+        return arraySize == 0;
+    }
+
+    public int computeHashValue(int value1, int value2) {
+        return value1 % value2;
+    }
+
+    public void displayAll() {
+        if (!isEmpty()) {
+            for (int j = 0; j < arr.length - 1; j++) {
+                if (arr[j] != null) {
+                    arr[j].display();
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        } else {
+            System.out.println("Hash table is empty");
+        }
+    }
+
+    public void insert(DataItem item) {
+        Integer index = computeHashValue(item.getValue(), arraySize);
+
+        while (arr[index] != null) {
+            index = index + 1;
+            // avoiding UndexOutOfBoundary if it happens
+            if (index > arraySize - 1) {
+                index = computeHashValue(index, arraySize);
+            }
+        }
+        // insert value:
+        arr[index] = item;
+    }
+
+    public int find(DataItem item) {
+        Integer outIndex = null;
+        Integer index = computeHashValue(item.getValue(), arraySize);
+
+        while (arr[index] != null && arr[index].getValue() != item.getValue()) {
+            index = index + 1;
+            // avoiding UndexOutOfBoundary if it happens
+            if (index > arraySize - 1) {
+                index = computeHashValue(index, arraySize);
+            }
+        }
+
+        if (arr[index].getValue() == item.getValue()) {
+            outIndex = index;
+        }
+
+        return outIndex;
+    }
+
+    public int delete(DataItem item) {
+        Integer indexToDelete = find(item);
+        DataItem itemDeleted = new DataItem(-1);
+
+        if (indexToDelete != null) {
+            arr[indexToDelete] = itemDeleted;
+        }
+
+        return indexToDelete;
+    }
+
+}
+
+public class HashingLinearProbing {
+
+    public static void main(String[] args) {
+        HashTable hash = new HashTable(12);
+        DataItem item0 = new DataItem(0);
+        DataItem item1 = new DataItem(12);
+        DataItem item2 = new DataItem(51);
+        DataItem item3 = new DataItem(39);
+        DataItem item4 = new DataItem(17);
+        DataItem item5 = new DataItem(7);
+        DataItem item6 = new DataItem(32);
+        DataItem item7 = new DataItem(56);
+        DataItem item8 = new DataItem(99);
+
+        hash.insert(item0);
+        hash.insert(item1);
+        hash.insert(item2);
+
+        hash.insert(item3);
+        hash.insert(item4);
+        hash.insert(item5);
+        hash.insert(item6);
+        hash.insert(item7);
+
+        hash.displayAll();
+        hash.delete(item1);
+        hash.displayAll();
+        hash.insert(item1);
+        hash.displayAll();
+        /*
+        0 12 * 51 39 17 * 7 32 56 * 
+        0 -1 * 51 39 17 * 7 32 56 * 
+        0 -1 12 51 39 17 12 7 32 56 * 
+*/
+    }
+
+}
