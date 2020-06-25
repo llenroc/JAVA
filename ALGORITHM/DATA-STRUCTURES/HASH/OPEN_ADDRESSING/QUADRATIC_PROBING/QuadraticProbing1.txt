@@ -1,0 +1,100 @@
+/*2020-Jun-23. Oleksii Saiun.
+ * HashTable
+ * Quadratic probing - avoiding collision we probe x+1^2, x+2^2, x+3^3, ... until we found empty position in an array
+ * 
+ * */
+
+class DataItem {
+    private int value;
+
+    DataItem(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void display() {
+        System.out.print(value + " ");
+    }
+}
+
+class HashTable {
+    private int arraySize;
+    private DataItem[] arr;
+    private int[] primeNumber = new int[] { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 23,27,31};
+
+    HashTable(int arraySize) {
+        this.arraySize = arraySize;
+        arr = new DataItem[arraySize];
+    }
+
+    public boolean isEmpty() {
+        return arraySize == 0;
+    }
+
+    public int calcHashValue(int value1, int value2) {
+        return value1 % value2;
+    }
+
+    public void display() {
+        if (!isEmpty()) {
+            for (int j = 0; j < arraySize - 1; j++) {
+                if (arr[j] != null) {
+                    arr[j].display();
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        } else {
+            System.out.println("HashTable is empty");
+        }
+    }
+
+    public void insert(DataItem item) {
+        int index = calcHashValue(item.getValue(), arraySize);
+
+        int stepPrime = 0;
+        while (arr[index] != null) {
+            index = index + primeNumber[stepPrime] * primeNumber[stepPrime];
+            if (index > arraySize - 1) {
+                index = index % arraySize;
+            }
+            stepPrime=stepPrime+1;
+        }
+        arr[index] = item;
+    }
+
+}
+
+public class QuadraticProbing1 {
+
+    public static void main(String[] args) {
+        HashTable hash = new HashTable(12);
+        DataItem item0 = new DataItem(10);
+        DataItem item1 = new DataItem(12);
+        DataItem item2 = new DataItem(51);
+        DataItem item3 = new DataItem(39);
+        DataItem item4 = new DataItem(17);
+        DataItem item5 = new DataItem(7);
+        DataItem item6 = new DataItem(32);
+        DataItem item7 = new DataItem(56);
+        DataItem item8 = new DataItem(99);
+
+        hash.insert(item0);
+        hash.insert(item1);
+        hash.insert(item2);
+
+        hash.insert(item3);
+        hash.insert(item4);
+        hash.insert(item5);
+        hash.insert(item6);
+        hash.insert(item7);
+        hash.insert(item7);
+
+        hash.display();
+    }
+
+}
