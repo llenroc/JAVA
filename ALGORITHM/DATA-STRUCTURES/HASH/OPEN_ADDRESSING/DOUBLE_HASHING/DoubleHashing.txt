@@ -1,0 +1,102 @@
+/*2020-Jun-24. Oleksii Saiun.
+ * HashTable
+ * Double Hashing probing - avoiding collision. 
+ * It generates a code that depends on key instead of being the same for each key. 
+ * The idea is it generates hash key the second time using different hash function.
+ * (!) arraySize must be prime for double hashing
+ * */
+class DataItem {
+    private int value;
+
+    DataItem(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void display() {
+        System.out.print(value + " ");
+    }
+}
+
+class HashTable {
+    DataItem[] arr;
+    int arraySize;
+
+    HashTable(int arraySize) {
+        this.arraySize = arraySize;
+        arr = new DataItem[arraySize];
+    }
+
+    public boolean isEmpty() {
+        return arraySize == 0;
+    }
+
+    public int computeHashValue1(int value1, int value2) {
+        return value1 % value2;
+    }
+
+    public int computeHashValue2(int value) {
+        return (5 - value%5);
+    }
+
+    public void insert(DataItem item) {
+        Integer index = computeHashValue1(item.getValue(), arraySize);
+        int step = computeHashValue2(item.getValue());
+        
+        while (arr[index] != null) {
+            index = index + step;
+            // avoiding UndexOutOfBoundary if it happens
+            if (index > arraySize - 1) {
+                index = computeHashValue1(index, arraySize);
+            }
+        }
+        // insert value:
+        arr[index] = item;
+    }
+
+    public void displayAll() {
+        if (!isEmpty()) {
+            for (int j = 0; j < arr.length - 1; j++) {
+                if (arr[j] != null) {
+                    arr[j].display();
+                } else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        } else {
+            System.out.println("Hash table is empty");
+        }
+    }
+}
+
+public class DoubleHashingApp {
+    public static void main(String[] args) {
+        HashTable hash = new HashTable(13);
+        DataItem item0 = new DataItem(7);
+        DataItem item1 = new DataItem(12);
+        DataItem item2 = new DataItem(51);
+        DataItem item3 = new DataItem(39);
+        DataItem item4 = new DataItem(17);
+        DataItem item5 = new DataItem(7);
+        DataItem item6 = new DataItem(32);
+        DataItem item7 = new DataItem(56);
+        DataItem item8 = new DataItem(99);
+
+        hash.insert(item0);
+        hash.insert(item1);
+        hash.insert(item2);
+
+        hash.insert(item3);
+        hash.insert(item4);
+        hash.insert(item5);
+        hash.insert(item6);
+        hash.insert(item7);
+
+        hash.displayAll();
+
+    }
+}
