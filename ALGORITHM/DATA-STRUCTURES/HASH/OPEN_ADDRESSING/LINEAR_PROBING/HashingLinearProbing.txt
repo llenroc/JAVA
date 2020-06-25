@@ -1,6 +1,6 @@
 /*2020-Jun-22. Oleksii Saiun.
  * HashTable
- * Linear probing - avoiding collision
+ * Linear probing - avoiding collision we probe x+1, x+2, x+3, ... until we found empty position in an array
  * 
  * */
 class DataItem {
