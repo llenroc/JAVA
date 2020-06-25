@@ -40,11 +40,9 @@ class LinkedList {
             head = newNode;
         } else {
             previousNode.next = newNode;
+            }
             newNode.next = currentNode;
-        }
-        
-     
-
+                     
     }
 
     public void displayAll() {
@@ -65,7 +63,7 @@ public class SortedLinkedList {
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        list.insertFirst(0);
+        list.insertFirst(20);
         list.insertFirst(7);
         list.insertFirst(-1);
         list.insertFirst(5);
