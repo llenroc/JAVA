@@ -1,1 +1,152 @@
+/*2020-Jun-24. Oleksii Saiun.
+ * HashTable
+ * [Separate Chaining] - avoiding collision approach - is to create an array that consists of linked lists 
+ * of words instead of words themselves. 
+ * Then, when a collision happens, the new item is simply inserted in the list 
+ * 
+ * */
 
+class Node {
+    int value;
+    Node next;
+
+    Node(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void display() {
+        System.out.print(value + " ");
+    }
+}
+
+class LinkedList {
+    Node head;
+
+    public void insertFirst(int value) {
+        Node newNode = new Node(value);
+        Node previousNode = null;
+        Node currentNode = head;
+
+        if (isEmpty()) {
+            newNode.next = head;
+            head = newNode;
+        }
+        while (currentNode != null && value > currentNode.getValue()) {
+            previousNode = currentNode;
+            currentNode = currentNode.next;
+        }
+        if (previousNode == null) {
+            head = newNode;
+        } else {
+            previousNode.next = newNode;
+        }
+        newNode.next = currentNode;
+
+    }
+
+    public void displayAll() {
+        Node current = head;
+        while (current != null) {
+            current.display();
+            current = current.next;
+        }
+        System.out.println();
+    }
+
+    public boolean isEmpty() {
+        return (head == null);
+    }
+}
+
+class HashTable {
+    private int arraySize;
+    private LinkedList[] arr;
+
+    HashTable(int arraySize) {
+        this.arraySize = arraySize;
+        arr = new LinkedList[arraySize];
+        // fill array
+        for (int j = 0; j < arraySize; j++) {
+            arr[j] = new LinkedList();
+        }
+    }
+
+    public int calcHashValue(int value1, int value2) {
+        return (value1 % value2);
+    }
+
+    public void insert(Node node) {
+
+        int index = calcHashValue(node.getValue(), arraySize);
+        // System.out.println("index:"+index);
+        // System.out.println("value:"+node.getValue());
+        arr[index].insertFirst(node.getValue());
+
+    }
+
+    public void displayAll() {
+        if (!isEmpty()) {
+            for (int j = 0; j < arr.length - 1; j++) {
+                if (arr[j].head != null) {
+                    arr[j].displayAll();
+                } else {
+                    System.out.println("* ");
+                }
+            }
+        } else {
+            System.out.println("Hash table is empty");
+        }
+    }
+
+    public boolean isEmpty() {
+        return arraySize == 0;
+    }
+}
+
+public class SeparateChainingApp {
+
+    public static void main(String[] args) {
+        HashTable hash = new HashTable(13);
+        Node item0 = new Node(2);
+        Node item1 = new Node(12);
+        Node item2 = new Node(51);
+        Node item3 = new Node(39);
+        Node item4 = new Node(17);
+        Node item5 = new Node(7);
+        Node item6 = new Node(32);
+        Node item7 = new Node(56);
+        Node item8 = new Node(99);
+
+        hash.insert(item0);
+        hash.insert(item1);
+        hash.insert(item2);
+
+        hash.insert(item3);
+        hash.insert(item4);
+        hash.insert(item5);
+        hash.insert(item6);
+        hash.insert(item7);
+        hash.insert(item4);
+        hash.insert(item8);
+
+        hash.displayAll();
+/*
+         output: 
+         39
+         * 
+         2
+         * 
+         17 17 56
+         * 
+         32 7 99
+         * 
+         * 
+         * 
+  */
+    }
+
+}
