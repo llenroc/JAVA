@@ -1,0 +1,191 @@
+
+import java.util.ArrayDeque;
+import java.util.LinkedList;
+import java.util.Queue;
+
+/*2020-Jul-03. Oleksii Saiun
+ * Operations - [insert] and [search]     
+ * 
+ * */
+
+class Node {
+    Node left;
+    Node right;
+    private int value;
+
+    public Node(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+    
+}
+
+class Tree {
+    Node node;
+
+    public Tree(Node node) {
+        this.node = node;
+    }
+
+    public void searchNode(Node root, int key) {
+
+        // System.out.println("Find:"+root.getValue());
+Node tmp=root;
+        while (tmp != null) {
+            if (key == tmp.getValue()) {
+                System.out.println("Found:" + tmp.getValue());
+                return;
+            }
+
+            if (key < tmp.getValue()) {
+                tmp = tmp.left;
+            } else {
+                tmp = tmp.right;
+            }
+        }
+        
+        if(tmp==null)
+        {
+            System.out.println("Not Fond key:" + key);  
+        }
+   }
+
+    public void insertNode(Node root, int key) {
+       Node tmp=root;
+       Node newNode=new Node(key);
+        while (1==1) {
+            //left subtree
+            if (key < tmp.getValue()) {
+                
+                if(tmp.left==null)
+                {
+                    tmp.left=newNode;
+                    return;
+                }
+                else
+                {
+                    tmp=tmp.left;
+                }                
+            //right subtree                
+            } else {
+            if( tmp.right==null)    
+            {
+                tmp.right=newNode;
+                return;
+            }
+            else
+            {
+                tmp=tmp.right;
+            }
+                
+            }
+        }
+        
+       
+   }
+    
+    public static int height(Node root)
+    {
+        // empty tree has height 0
+        if (root == null) {
+            return 0;
+        }
+
+        // create an empty queue and enqueue root node
+        Queue<Node> queue = new ArrayDeque<>();
+        queue.add(root);
+
+        Node front = null;
+        int height = 0;
+
+        // do till queue is not empty
+        while (!queue.isEmpty())
+        {
+            // calculate number of nodes in current level
+            int size = queue.size();
+
+            // process each node of current level and enqueue their
+            // non-empty left and right child to queue
+            while (size-- > 0) {
+                front = queue.poll();
+
+                if (front.left != null) {
+                    queue.add(front.left);
+                }
+
+                if (front.right != null) {
+                    queue.add(front.right);
+                }
+            }
+
+            // increment height by 1 for each level
+            height++;
+        }
+
+        return height;
+    }
+    
+    public void BFS(Node root) {
+        Queue<Node> queue = new LinkedList();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            Node tmp = queue.poll();
+            System.out.print(tmp.getValue() + " ");
+
+            if (tmp.left != null) {
+                queue.offer(tmp.left);
+            }
+
+            if (tmp.right != null) {
+                queue.offer(tmp.right);
+            }
+        }
+
+        System.out.println();
+
+    }
+}
+
+public class BinarySearchTree_Insert_SearchApp1 {
+    public static void main(String[] args) {
+        Node root = new Node(9);
+        Node node3 = new Node(3);
+        Node node10 = new Node(10);
+        Node node2 = new Node(2);
+        Node node1 = new Node(1);
+        Node node0 = new Node(1);
+        Node node8 = new Node(8);
+        Node node16 = new Node(16);
+
+        root.left = node3;
+        root.right = node10;
+        node3.left = node2;
+        node10.left = node8;
+        node10.right = node16;
+        node2.left =node1;
+        Tree tree = new Tree(root);
+        
+        tree.BFS(root);
+        tree.insertNode(root, 0);
+        tree.insertNode(root, 1);
+        tree.BFS(root);
+        System.out.println("height=:" + tree.height(root));
+        /*
+         *           9 
+         *        3     10 
+         *      2     8   16
+         *    1
+         *  0    1
+         */
+
+    }
+
+}
