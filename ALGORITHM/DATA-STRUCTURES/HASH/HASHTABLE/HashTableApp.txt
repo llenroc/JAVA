@@ -1,0 +1,58 @@
+/*2020-Jul-06. Oleksii Saiun
+ * Creating hash table based on ADT[Dueue]. Originally you can use LinkedList
+ * */
+class HashTable {
+    private int arrSize;
+    private DueueADT[] arr;
+
+    HashTable(int arrSize) {
+        this.arrSize = arrSize;
+        arr = new DueueADT[arrSize];
+
+        for (int j = 0; j < arrSize - 1; j++) {
+            arr[j] = new DueueADT();
+        }
+    }
+
+    public void insert(int index, int value) {
+        arr[index].push(value);
+    }
+
+    public void displayAll() {
+        for (int j = 0; j < arrSize - 1; j++) {
+            if (!arr[j].isEmpty()) {
+                while (!arr[j].isEmpty()) {
+                    System.out.print(arr[j].removeFirst().getValue() + " ");
+                }
+                System.out.println();
+            }
+        }
+    }
+}
+
+public class HashTableApp {
+
+    public static void main(String[] args) {
+        HashTable hash = new HashTable(10);
+
+        hash.insert(0, 50);
+        hash.insert(0, 60);
+        hash.insert(0, 70);
+        hash.insert(1, 9);
+        hash.insert(1, 8);
+        hash.insert(3, 99);
+        hash.insert(3, 100);
+        hash.insert(3, 101);
+        hash.insert(3, 102);
+        hash.insert(3, 103);
+        hash.insert(8, 43);
+        hash.displayAll();
+        /*
+         * 70 60 50
+         * 8 9 
+         * 103 102 101 100 99
+         * 43
+         */
+    }
+
+}
