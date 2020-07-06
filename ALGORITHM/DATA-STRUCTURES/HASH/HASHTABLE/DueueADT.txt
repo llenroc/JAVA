@@ -1,0 +1,27 @@
+public class DueueADT {
+    private LinkedListDoublyEnded list;
+    public DueueADT()
+    {
+        list = new LinkedListDoublyEnded();    
+    }
+    
+    public boolean isEmpty() {
+        return list.isEmpty();
+    }
+    
+    public void push(int value)
+    {
+        list.insertFirst(value);
+    }
+    
+    public Node removeFirst()
+    {
+        return list.removeFirst();
+    }
+    
+    public Node removeLast()
+    {
+        return list.removeLast();
+    }
+    
+}
