@@ -1,0 +1,17 @@
+public class Node {
+    private int value;
+    Node next;
+    Node prev;
+
+    Node(int value) {
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void displayValue() {
+        System.out.print(value + " ");
+    }
+}
