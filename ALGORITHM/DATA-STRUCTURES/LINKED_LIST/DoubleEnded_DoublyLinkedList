@@ -51,6 +51,42 @@ class LinkedList {
         }
     }
 
+    public Node removeFirst() {
+        Node nodeToDelete = null;
+        if (!isEmpty()) {
+            nodeToDelete = head;
+
+            if (nodeToDelete.next == null) {
+                head = null;
+                tail = null;
+
+            } else {
+                Node nodeNext = nodeToDelete.next;
+                head = nodeNext;
+                nodeNext.prev = head;
+                return nodeToDelete;
+            }
+        }
+        return nodeToDelete;
+    }
+    
+    public Node removeLast() {
+        Node nodeToDelete=null;
+        if (!isEmpty()) {
+            nodeToDelete = tail;
+
+            if (nodeToDelete.prev == null) {
+                head = null;
+                tail = null;
+   
+            } else {               
+                Node nodePrev = nodeToDelete.prev;
+                tail = nodePrev;
+                return nodeToDelete;
+            }
+        }
+        return nodeToDelete;
+    }
     public void displayForward() {
         Node currentNode = head;
         while (currentNode != null) {
