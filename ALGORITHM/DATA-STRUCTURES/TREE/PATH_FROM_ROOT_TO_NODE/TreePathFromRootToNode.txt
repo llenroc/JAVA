@@ -1,0 +1,131 @@
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+
+/*Oleksii Saiun. 09-Jul-2020
+ * Find a path from root to a node;
+ * 
+ * 
+ * */
+class Node {
+    private int value;
+    Node left;
+    Node right;
+
+    public Node(int value) {
+        super();
+        this.value = value;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+}
+
+class Tree {
+    private Node node;
+
+List<Integer> outPath = new ArrayList<>();
+
+
+    public Tree(Node node) {
+        this.node = node;
+    }
+    
+    public boolean path(Node root, int key)
+    {
+        
+        if (root == null)
+        {
+            return false;
+        }
+        
+        if (root.getValue() == key)
+        {
+            outPath.add(root.getValue());
+            return true;
+        }
+        
+        if ( path(root.left,key))
+        {
+            outPath.add(root.getValue());
+            return true;
+        }
+        
+        if (path(root.right,key))
+        {
+            outPath.add(root.getValue());
+            return true;
+        }
+        
+       return false;
+        
+    }
+    
+  
+    public void BFS(Node root)
+    {
+        if (root == null)
+        {
+            return;
+        }
+        
+        Queue<Node> queue = new LinkedList();
+        queue.offer(root);
+
+        while(!queue.isEmpty())
+        {
+            Node tmp = queue.remove();
+            System.out.print(tmp.getValue()+" ");
+            
+            if(tmp.left!=null)
+            {
+                queue.offer(tmp.left);
+            }
+            if(tmp.right!=null)
+            {
+                queue.offer(tmp.right);
+            }
+        }
+    }
+}
+public class TreePathFromRootToNode {
+    public static void main(String[] args) {
+        Node root = new Node(9);
+        Node node3 = new Node(3);
+        Node node10 = new Node(10);
+        Node node2 = new Node(2);
+        Node node1 = new Node(1);
+        Node node0 = new Node(0);
+        Node node8 = new Node(8);
+        Node node16 = new Node(16);
+
+        root.left = node3;
+        root.right = node10;
+        node3.left = node2;
+        node10.left = node8;
+        node10.right = node16;
+        node2.left = node1;
+        node1.left=node0;
+        Tree tree = new Tree(root);
+
+        tree.path(root,8);
+        for(Integer x : tree.outPath)
+        {
+            System.out.print(x+" ");
+        }
+        /*
+         *           9 
+         *        3     10 
+         *      2     8   16
+         *    1   
+         *  0
+         */
+
+    }
+
+}
