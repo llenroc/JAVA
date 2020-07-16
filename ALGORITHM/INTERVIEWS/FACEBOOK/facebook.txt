@@ -1,2 +1,15 @@
 --link
 https://www.geeksforgeeks.org/facebook-interview-questions/?ref=rp
+--
+https://www.glassdoor.com/Interview/Facebook-Data-Engineering-Interview-Questions-EI_IE40772.0,8_KO9,25_IP4.htm
+
+
+SQLL:
+1. Percentage increase in revenue compared to promoted and non-promoted products.
+2. Products classes that has the highest transactions
+3. Count of Customers who bought 2 items type (A,B)
+4. Don't remember
+
+Python:
+1. Average length of letters to words.
+2. Parse an ip address (This is a favourite FB question)
