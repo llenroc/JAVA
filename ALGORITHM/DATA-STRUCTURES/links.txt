@@ -20,6 +20,9 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 https://www.coriers.com/the-interview-study-guide-for-data-engineers/
 
 
+--unit test for alghorithms:
+https://gist.github.com/yar00001/cbfc98029ae746dbd14a83f96c294ef7
+
 --Tree and  Traversing
 https://www.youtube.com/watch?v=BHB0B1jFKQc&app=desktop
 https://www.java67.com/2016/07/how-to-implement-preorder-traversal-of-binary-tree-in-java.html?m=1
