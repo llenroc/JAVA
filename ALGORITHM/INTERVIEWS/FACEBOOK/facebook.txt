@@ -2,6 +2,9 @@
 https://www.geeksforgeeks.org/facebook-interview-questions/?ref=rp
 --
 https://www.glassdoor.com/Interview/Facebook-Data-Engineering-Interview-Questions-EI_IE40772.0,8_KO9,25_IP4.htm
+--(!!!!)
+https://www.facebookrecruiting.com/portal/home
+
 
 
 SQLL:
