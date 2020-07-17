@@ -1,1 +1,51 @@
+/**
+ * Oleksii Saiun. 2020-Jul-17
+ * Create Linked list based on Generic
+ * It allows to be flexible and use any class as parameter for LinkedList
+ * This Example demonstrates implementation based on <Employee>
+ */
+class LinkedList<T> {
+	Node<T> head;
 
+	public void insert(T value) {
+		Node<T> node = new Node<T>(value);
+		if (head == null) {
+			head = node;
+		} else {
+			node.next = head;
+			head = node;
+		}
+	}
+
+	public boolean isEmpty() {
+		return (head == null);
+	}
+
+	public void displayAll() {
+		Node<T> curentNode = head;
+		while (curentNode != null) {
+			curentNode.displayValue();
+			curentNode = curentNode.next;
+			System.out.println();
+		}
+	}
+}
+
+public class LinkedListGenericApp {
+	public static void main(String[] args) {
+
+		NodeEmployee emp1 = new NodeEmployee(10, "Oleksii", "Saiun");
+		NodeEmployee emp2 = new NodeEmployee(20, "Boris", "Jons");
+		NodeEmployee emp3 = new NodeEmployee(30, "Sue", "Lee");
+		NodeEmployee emp4 = new NodeEmployee(40, "Albert", "Swarzevskiy");
+		LinkedList<NodeEmployee> list = new LinkedList<>();
+
+		list.insert(emp1);
+		list.insert(emp2);
+		list.insert(emp3);
+		list.insert(emp4);
+
+		list.displayAll();
+	}
+
+}
