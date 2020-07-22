@@ -1,4 +1,3 @@
-package hash.hashtable_generic;
 public class Node<T> {
     private T value;
     //it is for linkedlist handling
