@@ -38,17 +38,6 @@ class Tree {
 		this.root = root;
 	}
 
-	public void preOrder(Node root)
-	{
-		if (root==null)
-		{
-			return;
-		}
-		root.displayValue();
-		preOrder(root.left);
-		preOrder(root.right);
-	}
-
 	
 	public void populateVerticalTraversal(Node root, int index)
 	{
@@ -65,47 +54,6 @@ class Tree {
 		
 	}
 	
-	public int calcHeight(Node root)
-	{
-
-		if (root==null)
-		{
-			return 0;
-		}
-		
-		int leftDepth = calcHeight(root.left);
-		int rightDepth = calcHeight(root.right);
-		
-		if(leftDepth>rightDepth)
-		{
-			return leftDepth+1;
-		}
-		else
-		{
-			return rightDepth+1;
-		}
-	}
-	
-	public void BSF(Node root) {
-		if (root == null) {
-			return;
-		}
-
-		Queue<Node> queue = new LinkedList();
-		queue.offer(root);
-
-		while (!queue.isEmpty()) {
-			Node tmp = queue.poll();
-			tmp.displayValue();
-			if (tmp.left != null) {
-				queue.offer(tmp.left);
-			}
-
-			if (tmp.right != null) {
-				queue.offer(tmp.right);
-			}
-		}
-	}
 }
 
 public class TreeVerticalTraversalApp {
