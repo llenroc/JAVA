@@ -1,114 +1,45 @@
-package tree.view.bottomview;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Map.Entry;
 
-/* 2020-Jul-25. Oleksii Saiun
- * Bottom View
- * 
- * The idea is make a vertical traversal
- *  1) root is assigned index=0
- *  2) left move is  assigned index=index - 1
- *  3) right move is  assigned index=index + 1
- * 
- * 
- *  Traversal is inserted into TreeHash and then output
- *  We use TreeHash, because it stores values by index in sorted way
- *  
- *  and than take the last element from TreeMap 
- *          9 
- *       3      10  
- *    2       8  16
- *  1  11           17
- *                    19
- * Result:                          
-  [-3] 1 
-  [-2] 2 
-  [-1] 11 
-  [0] 8 
-  [1] 10 
-  [2] 16 
-  [3] 17 
-  [4] 19
-*        
-*        
-* */	
+import java.util.TreeMap;
+import java.util.Deque;
 
-class Tree {
-	Node root;
-	HashTreeMap hash =new HashTreeMap();
-	
-	public Tree(Node root) {
-		this.root = root;
+public class HashTreeMap {
+
+	Map<Integer, Deque<Node>> map;
+
+	public Map<Integer, Deque<Node>> getMap() {
+		return map;
 	}
 
-	
-	private void populateVerticalTraversal(Node root, int index)
-	{
-		if (root==null)
-		{
-			return;
+	public HashTreeMap() {
+		map = new TreeMap<>();
+	}
+
+	public void addValue(int index, Node node) {
+
+		if (!map.containsKey(index)) {
+			Deque<Node> dequeuNew = new LinkedList<>();
+			dequeuNew.addFirst(node);
+			map.put(index, dequeuNew);
+		} else {
+			Deque<Node> dequeuExisting = map.get(index);
+			dequeuExisting.addFirst(node);
 		}
-		
-		hash.addValue(index, root);
-		
-
-		populateVerticalTraversal(root.left,index-1);
-		populateVerticalTraversal(root.right,index+1);
-		
-	}
-	
-	public void rightView(Node root)
-	{
-		populateVerticalTraversal(root,0);
-		hash.displayFirstRightElement();
-	}
-	
-}
-
-public class TreeBottomViewApp {
-	public static void main(String[] args) {
-		Node root = new Node(9);
-		Node node3 = new Node(3);
-		Node node2 = new Node(2);
-		Node node1 = new Node(1);
-		Node node11 = new Node(11);
-		Node node10 = new Node(10);
-		Node node8 = new Node(8);
-		Node node16 = new Node(16);
-		Node node17 = new Node(17);
-		Node node19 = new Node(19);
-		root.left = node3;
-		node3.left = node2;
-		node2.left = node1;
-		node2.right = node11;
-
-		root.right = node10;
-		node10.left = node8;
-		node10.right = node16;
-		node16.right = node17;
-		node17.right = node19;
-		Tree tree = new Tree(root);
-		tree.rightView(root);
-
-
-		
-	       /*
-*          9 
-*       3      10  
-*    2       8  16
-*  1  11           17
-*                    19
-*        
-  [-3] 1 
-  [-2] 2 
-  [-1] 11 
-  [0] 8 
-  [1] 10 
-  [2] 16 
-  [3] 17 
-  [4] 19 
-
-*        
-*        
-* */		
 	}
 
+	public void displayFirstRightElement() {
+		for (Entry<Integer, Deque<Node>> entry : map.entrySet()) {
+			int index = entry.getKey();
+			Deque<Node> dequeu = entry.getValue();
+			System.out.print("[" + index + "] ");
+			displayDequeFirstElement(dequeu);
+			System.out.println();
+		}
+	}
+
+	private void displayDequeFirstElement(Deque<Node> dequeu) {
+			dequeu.removeFirst().displayValue();
+	}
 }
