@@ -32,6 +32,9 @@ https://www.youtube.com/watch?v=VaIaJMeNWtU
 --recursive tree tasks
 http://cslibrary.stanford.edu/110/BinaryTrees.html#s1
 
+--Leetcode to Amazon, Facebook, Google
+https://www.youtube.com/c/KevinNaughtonJr/videos
+
 --Heaps:
 https://www.youtube.com/watch?v=HqPJF2L5h9U
 
