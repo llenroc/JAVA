@@ -1,3 +1,5 @@
+# DATA STRUCTURE is a way of organizindt data in memory
+
 # ARRAY
 
 +:
