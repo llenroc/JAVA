@@ -29,33 +29,6 @@ class Tree {
 		this.node = node;
 	}	
 	
-	public boolean calcPath(Node root, Node keyNode, List<Integer> path)
-	{ 
-		if(root==null)
-		{
-			return false;
-		}
-		
-		if(root.getValue()==keyNode.getValue())
-		{
-			path.add(root.getValue());
-			return true;
-		}
-		if(calcPath(root.left,keyNode,path))
-		{
-			path.add(root.getValue());
-			return true;
-		}
-		if(calcPath(root.right,keyNode,path))
-		{
-			path.add(root.getValue());
-			return true;
-		}
-		
-		return false;
-		
-	}
-	
 	public int sum(Node root)
 	{
 		if (root==null)
