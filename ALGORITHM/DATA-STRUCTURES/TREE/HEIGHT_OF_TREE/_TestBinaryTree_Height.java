@@ -43,16 +43,16 @@ public class _TestBinaryTree_Height {
 	public void testTreeNull() {
 		Node root = null;
 		Tree tree = new Tree(root);
-		int heightIncome = tree.calcHeightOfTreeRecurs(root);
-		assertEquals(heightIncome, 0);
+		int heightInput = tree.calcHeightOfTreeRecurs(root);
+		assertEquals(heightInput, 0);
 	}
 
 	@Test
 	public void testTreeHeight5() {
 		Node root = buildTree1();
 		Tree tree = new Tree(root);
-		int heightIncome = tree.calcHeightOfTreeRecurs(root);
-		assertEquals(heightIncome, 5);
+		int heightInput = tree.calcHeightOfTreeRecurs(root);
+		assertEquals(heightInput, 5);
 	}
 
 }
