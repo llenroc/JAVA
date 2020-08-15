@@ -2,6 +2,9 @@
 /*2020-Jul-03. Oleksii Saiun
  * Find a height of binary tree
  * It's implemented by 2 ways: recursive and iterative    
+ 
+ 2020-Aug-15. Oleksii Saiun
+ add Unit tests
  * 
  * */
 
