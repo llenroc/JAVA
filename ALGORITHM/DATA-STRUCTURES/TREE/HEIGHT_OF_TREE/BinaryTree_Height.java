@@ -10,21 +10,6 @@ import java.util.Queue;
  * 
  * */
 
-class Node {
-    private int value;
-    Node left;
-    Node right;
-
-    public Node(int value) {
-        super();
-        this.value = value;
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-}
 
 class Tree {
     private Node node;
