@@ -7,6 +7,15 @@ public class _TestTreeValidateBSTApp {
 	
 	private Node buildTree1()
 	{
+        /*
+         *           5 
+         *         /   \   
+         *        3     8
+         *      /  \   /  \
+         *     2    4  6   10
+         *     
+         *                  
+         */
 		Node root = new Node(5);
 		Node node2 = new Node(2);
 		Node node3 = new Node(3);
@@ -27,6 +36,15 @@ public class _TestTreeValidateBSTApp {
 	
 	private Node buildTree2()
 	{
+        /*
+         *           5 
+         *         /   \   
+         *        1     4
+         *             /  \
+         *             3   6
+         *                        
+         */
+		
 		Node root = new Node(5);
 		Node node1 = new Node(1);
 		Node node3 = new Node(3);
