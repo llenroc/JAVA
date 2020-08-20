@@ -19,7 +19,7 @@
 
 2020-Aug-20. Oleksii Saiun.
 LeetCode_#98.Given a binary tree, determine if it is a valid binary search tree (BST).
-
+https://leetcode.com/problems/validate-binary-search-tree/
 */
 class Solution {
     public boolean isValidBST(TreeNode root) {
