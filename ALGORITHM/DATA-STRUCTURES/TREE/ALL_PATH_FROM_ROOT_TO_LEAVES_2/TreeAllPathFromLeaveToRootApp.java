@@ -57,11 +57,12 @@ class Tree {
     	}
     	
     	path.add(root);
-    	
+    
+      //(!) WITHOUT RETURN STATEMENT HERE
     	if(root.left==null&&root.right==null)
     	{
     		printPath(path);
-    		return;
+    	//	return;
     	}  	
     
     	printAllPath(root.left);
