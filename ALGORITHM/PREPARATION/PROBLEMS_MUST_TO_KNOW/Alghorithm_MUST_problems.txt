@@ -1,1 +1,3 @@
-1
+###Tree
+#1. Create a BST from sorted array
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CREATE_BST_FROM_SORTED_ARRAY
