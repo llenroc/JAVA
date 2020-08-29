@@ -3,6 +3,12 @@ import java.util.Queue;
 
 /* 2020-Aug-06. Oleksii Saiun. Check if tree is subtree of another tree
 
+
+note: two nulls are [true]
+
+		if (root1 == null && root2 == null) {
+			return true;
+		} 
  * */
 class Tree {
 	Node root;
