@@ -1,3 +1,12 @@
+--MUST BUY THIS COURSE
+-- dynamic programming and alghorithms
+https://www.educative.io/courses/grokking-the-coding-interview/gx3j14p5Y3Y
+--OOP design course
+https://www.educative.io/courses/grokking-the-object-oriented-design-interview
+--System design course
+https://www.educative.io/courses/grokking-the-system-design-interview
+
+
 --Big-O:
 https://www.bigocheatsheet.com/
 
