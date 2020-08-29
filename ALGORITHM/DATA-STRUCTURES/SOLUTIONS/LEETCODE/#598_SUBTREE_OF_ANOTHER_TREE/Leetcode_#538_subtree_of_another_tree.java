@@ -13,6 +13,12 @@
  *     }
  * }
  */
+
+/*
+2020-Aug-29. Oleksii Saiun.
+LeetCode_#98. Subtree of Another Tree
+https://leetcode.com/problems/validate-binary-search-tree/
+*/
 class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         
