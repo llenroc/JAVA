@@ -18,6 +18,39 @@
 2020-Aug-29. Oleksii Saiun.
 LeetCode_#965. Univalued Binary Tree
 https://leetcode.com/problems/univalued-binary-tree/
+
+[Unival tree]=[Univalued tree] is a tree where each node have the same values
+Example
+1)
+ 5
+ result: true
+ 
+2)
+     5
+    /  \
+   5    5
+ result: true 
+ 
+3)
+     5
+       \
+        5
+ result: true  
+4)
+     5
+   /   \
+  2     5
+ result: false   
+
+ (!) Simple, but tricky implementation
+  The solution is based on visa verse(!):
+------
+          if (root==null)
+        {
+            return true;
+        }
+------        
+ 
 */
 class Solution {
     public boolean isUnivalTree(TreeNode root) {                
