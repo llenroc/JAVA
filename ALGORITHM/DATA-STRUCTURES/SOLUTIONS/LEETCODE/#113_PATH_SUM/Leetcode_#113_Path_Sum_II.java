@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Queue;
 
 
-/*2020-Aug-31. Oleksii Saiun. [Path Sum2]
+/*2020-Aug-31. Oleksii Saiun. [Path Sum II]
 LeetCode_#113.
   Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
    https://leetcode.com/problems/path-sum-ii/submissions/
