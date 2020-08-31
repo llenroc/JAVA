@@ -62,12 +62,14 @@ class Tree {
     	if(root.left==null&&root.right==null)
     	{
     		printPath(path);
-    	//	return;
+
     	}  	
     
     	printAllPath(root.left);
     	printAllPath(root.right);
     	path.removeLast();
+        
+        //RETURN STATEMENT HERE
     	return;
     }
     
