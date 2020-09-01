@@ -1,6 +1,7 @@
 ###Tree
 #1. Create a BST from sorted array
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CREATE_BST_FROM_SORTED_ARRAY
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23108_CONVERT_SORTED_ARRAY_TO_BINARY_SEARCH_TREE
 
 #2. Univalued binary tree. Simple, but tricky implementation
 https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23965_UNIVALUED_BINARY_TREE/LeetCode_%23965_Univalued_Binary_Tree.java
