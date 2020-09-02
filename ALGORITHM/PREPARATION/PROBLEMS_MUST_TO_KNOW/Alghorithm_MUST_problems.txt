@@ -10,4 +10,5 @@ https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/TREE/ALL_PATH_FROM_ROOT_TO_LEAVES_2/TreeAllPathFromLeaveToRootApp.java
 
 
-#4. Lowest Common ancestor
+#4. Lowest Common ancestor. 1)  return rootP or return rootQ 2) then we checks all cases for rootP and rootQ
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/LOWEST_COMMON_ANCESTOR_2
