@@ -8,3 +8,6 @@ https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #3. All path from Root to Leave. Trciky about [return] statement
 https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/TREE/ALL_PATH_FROM_ROOT_TO_LEAVES_2/TreeAllPathFromLeaveToRootApp.java
+
+
+#4. Lowest Common ancestor
