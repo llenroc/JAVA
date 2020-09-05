@@ -15,3 +15,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/
 
 #5. Construct Increasing Order Search Binary Tree
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONSTRUCT_INCREASING_ORDER_SEARCH_TREE
+
+
+#6. Height of Tree - iterative and recursive
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/HEIGHT_OF_TREE
