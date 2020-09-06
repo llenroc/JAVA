@@ -9,13 +9,14 @@ https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #3. All path from Root to Leave. Trciky about [return] statement
 https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/TREE/ALL_PATH_FROM_ROOT_TO_LEAVES_2/TreeAllPathFromLeaveToRootApp.java
 
-
 #4. Lowest Common ancestor. 1)  return rootP or return rootQ 2) then we checks all cases for rootP and rootQ
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/LOWEST_COMMON_ANCESTOR_2
 
 #5. Construct Increasing Order Search Binary Tree
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONSTRUCT_INCREASING_ORDER_SEARCH_TREE
 
-
 #6. Height of Tree - iterative and recursive
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/HEIGHT_OF_TREE
+
+#7. BFS -Level Order Taversal. How return output in a format of List<List<Integer>>
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23102_BINARY_TREE_LEVEL_ORDER_TRAVERSAL
