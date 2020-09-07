@@ -47,7 +47,7 @@ class Solution {
 			return;
 		}
 
-		int height = 1;
+		int height = 1; // I start from 1 in order to match with Leetcode result, but usually height=0 initially
 
 		TreeNode dummyNode = new TreeNode(Integer.MIN_VALUE);
 		Queue<TreeNode> queue = new LinkedList<>();
