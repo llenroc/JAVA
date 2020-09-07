@@ -1,5 +1,5 @@
 /*
-2020-Aug-20. Oleksii Saiun.
+2020-Sep-06. Oleksii Saiun.
 LeetCode_#204.Count Primes
 https://leetcode.com/problems/count-primes/
 
