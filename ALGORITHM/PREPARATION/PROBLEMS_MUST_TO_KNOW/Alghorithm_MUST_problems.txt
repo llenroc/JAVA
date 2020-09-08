@@ -23,6 +23,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/
 #7. BFS -Level Order Taversal. How return output in a format of List<List<Integer>>
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23102_BINARY_TREE_LEVEL_ORDER_TRAVERSAL
 
+#8. Validate BST
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/VALIDATE_BST
+
 ###########################################################
 ###Math
 ###########################################################
