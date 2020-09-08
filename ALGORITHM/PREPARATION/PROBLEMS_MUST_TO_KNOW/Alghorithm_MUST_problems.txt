@@ -26,8 +26,15 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 ###########################################################
 ###Math
 ###########################################################
-1. Count prime numbers. The method [Sieve of Eratosthenes]
+#1. Count prime numbers. The method [Sieve of Eratosthenes]
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23204_COUNT_PRIMES
 
-2. Power of two.
+#2. Power of two.
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23231_POWER_OF_TWO
+
+
+###########################################################
+###Array
+###########################################################
+#1. Convert binary number to decimal
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/ARRAY/CONVERT_BINARY_TO_DECIMAL
