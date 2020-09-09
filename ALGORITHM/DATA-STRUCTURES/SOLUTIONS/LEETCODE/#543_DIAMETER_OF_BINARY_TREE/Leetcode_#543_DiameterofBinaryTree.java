@@ -13,6 +13,13 @@
  *     }
  * }
  */
+
+/*
+2020-Sep-08. Oleksii Saiun.
+LeetCode_#543. Diameter of Binary Tree
+https://leetcode.com/problems/diameter-of-binary-tree/
+*/
+
 class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
         if (root==null)
