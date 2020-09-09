@@ -1,6 +1,6 @@
 --prepare for google
 https://www.mtu.edu/career/students/networking/interviews/prepare.pdf
-
+https://www.coriers.com/the-interview-study-guide-for-data-engineers/
 
 about Google:
 https://www.youtube.com/watch?v=kCcYip60_aY&authuser=0
