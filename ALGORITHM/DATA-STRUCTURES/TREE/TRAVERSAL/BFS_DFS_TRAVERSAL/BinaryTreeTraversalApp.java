@@ -2,13 +2,15 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-/*2020-Jul-03. Oleksii Saiun
+/*2020-Sep-08. Oleksii Saiun
  * Traversal of Binary Tree:
  * 1. DFS: 
  *        pre-order
  *        post-order
  *        in-order
  * 2.BFS       
+ *  iterative 1
+ *  iterative 2
  * 
  * */
 class Node {
@@ -136,9 +138,9 @@ class Tree {
     }
 
     // -----------------------------------------------
-    // 8.BSF - [iterative]
-    // using two stacks
-    public void BSF_Recursive(Node root) {
+    // 7.BSF - [iterative1]
+    // 
+    public void BSF_iterative1(Node root) {
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
 
@@ -155,6 +157,30 @@ class Tree {
 
         }
     }
+    // -----------------------------------------------
+    // 8.BSF - [iterative2]
+    public void BSF_iterative2(Node root) {
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+        	
+            int sizeOfQueue = queue.size();
+            for(int j=0; j<sizeOfQueue; j++)
+            {
+            	Node tmpNode = queue.poll();
+                System.out.print(tmpNode.getValue() + " ");
+                if (tmpNode.left != null) {
+                    queue.offer(tmpNode.left);
+                }
+
+                if (tmpNode.right != null) {
+                    queue.offer(tmpNode.right);
+                }
+            }
+
+        }
+    }   
 
 }
 
@@ -204,8 +230,11 @@ public class BinaryTreeTraversalApp {
         tree.postOrderIterative(root);
         System.out.println();
 
-        System.out.println("Traversal in BSF way [recursive]:");
-        tree.BSF_Recursive(root);
+        System.out.println("Traversal in BSF way [iterative1]:");
+        tree.BSF_iterative1(root);
+        System.out.println();
+        System.out.println("Traversal in BSF way [iterative2]:");
+        tree.BSF_iterative2(root);
         System.out.println();
 
         /*
