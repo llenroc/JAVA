@@ -1,0 +1,24 @@
+#####################################################################
+https://leetcode.com/discuss/interview-question/835936/amazon-sde2-aug-2020-offer
+Interview was conducted over Amazon Chime
+
+Round 1: Coding
+The interviewer asked me to explain my previous projects in detail. I was asked a lot of behavioural questions as well.
+Question 1: Similar to Number of Islands problem.
+Question 2: Merge k sorted list.
+Round 2: Hiring Manager
+The interviewer mainly concentrated on the principle "Customer obsession". I was asked behavioural questions around this principle.
+Then he moved on to coding questions.
+Question 1: Given two strings, check if the first string is a rotation of the other.
+Question 2: Find the border points in a convex hull.
+Round 3: System Design
+The interviewer concentrated on the leadership principle "Ownership", and I was asked various questions related to it.
+I was asked to design a system that sends mail/text message to the customer upon successful order/payment made through Amazon's website.
+Round 4:Bar raiser
+This was a mix of behavioural, coding, and system design questions.
+Design question: Design an image processing system that tags images to products.
+Coding question: Given an array of integers of size n, and an integer k less than n, find the largest number that can be formed by performing k adjacent swaps.
+input :2 5 3 0 1 , k=2
+output: 5 3 2 0 1
+Behavioural question: Challenges I faced and how I solved them.
+#####################################################################
