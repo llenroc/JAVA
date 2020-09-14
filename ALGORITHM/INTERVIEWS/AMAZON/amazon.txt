@@ -1,2 +1,6 @@
 #1
 https://www.educative.io/blog/crack-amazon-coding-interview-questions
+
+#2. list of amazpon questions
+https://leetcode.com/discuss/interview-question/488887/Amazon-Final-Interview-Questions-or-SDE1
+https://www.geeksforgeeks.org/amazon-interview-set-82-for-sde-2/
