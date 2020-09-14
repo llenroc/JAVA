@@ -31,6 +31,10 @@ https://www.java67.com/2018/06/data-structure-and-algorithm-interview-questions-
 --google interview questions:
 https://www.coriers.com/the-interview-study-guide-for-data-engineers/
 
+--amazon interview questions
+https://leetcode.com/discuss/interview-question/488887/Amazon-Final-Interview-Questions-or-SDE1
+https://www.geeksforgeeks.org/amazon-interview-set-82-for-sde-2/
+
 
 --unit test for alghorithms:
 https://gist.github.com/yar00001/cbfc98029ae746dbd14a83f96c294ef7
