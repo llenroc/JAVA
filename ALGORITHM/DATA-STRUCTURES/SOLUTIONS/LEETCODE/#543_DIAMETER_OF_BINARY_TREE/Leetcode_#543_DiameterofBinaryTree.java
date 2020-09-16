@@ -14,39 +14,46 @@
  * }
  */
 
+
 /*
-2020-Sep-08. Oleksii Saiun.
+2020-Sep-02. Oleksii Saiun.
 LeetCode_#543. Diameter of Binary Tree
 https://leetcode.com/problems/diameter-of-binary-tree/
 */
 
+
 class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
-        if (root==null)
+        if ( root==null )
         {
-            return 0;
+           return 0;
         }
-
-        int diameterViaRoot = calcHeight(root.left) + calcHeight(root.right);
-        int diameterNotViaRoot = Math.max(calcHeight(root.left), calcHeight(root.right));
-        int diameter = Math.max(diameterViaRoot,diameterNotViaRoot);  
-        return diameter;
+        
+        int option1 = calcHeight(root.left) + calcHeight(root.right) ;
+        int option2 = diameterOfBinaryTree(root.left);
+        int option3 = diameterOfBinaryTree(root.right);
+        
+        return Math.max(option1, Math.max(option2, option3));
     }
     
-    
-        public int calcHeight(TreeNode root) {
-        
-        if (root==null)
+    private int calcHeight(TreeNode root)
+    {
+        if ( root==null )
         {
-            return 0;
+           return 0;
         }
         
-        int leftDepth = calcHeight(root.left);
-        int rightDepth = calcHeight(root.right);
         
-       if ()
-       {
-           
-       }
+        int leftHeight = calcHeight(root.left);
+        int rightHeight = calcHeight(root.right);
+        
+        if( leftHeight > rightHeight )
+        {
+            return leftHeight+1;
+        }
+        else
+        {
+            return rightHeight+1;
+        }
     }
 }
