@@ -16,6 +16,9 @@ https://www.youtube.com/watch?v=PvDoT79oHTs&list=PLsyeobzWxl7oRKwDi7wjrANsbhTX0I
 --!!! Visualizer:
 https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
+--(!) top MUST algorithm  questions:
+https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/
+
 --top algorithm  questions:
 https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0
 https://www.byte-by-byte.com/wp-content/uploads/2019/01/50-Coding-Interview-Questions.pd
