@@ -50,6 +50,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #14. Find Mode in BST
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23501_FIND%20MOD_IN_BINARY_SEARCH_TREE
 
+#15. Balanced Binary Tree
+#110_BALANCED BINARY TREE/Leetcode_#110_Balanced_Binary_Tree.java
+
 ###########################################################
 ###Math
 ###########################################################
