@@ -59,6 +59,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #17. Merge two binary trees
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23617_MERGE_TWO_BINARY_TREES
 
+#18. Insert node into BST
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/INSERT_SEARCH_NODE
+
 
 ###########################################################
 ###Math
