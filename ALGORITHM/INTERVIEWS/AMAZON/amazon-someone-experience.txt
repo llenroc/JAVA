@@ -1,4 +1,4 @@
-#####################################################################
+#1.#####################################################################
 https://leetcode.com/discuss/interview-question/835936/amazon-sde2-aug-2020-offer
 Interview was conducted over Amazon Chime
 
@@ -21,4 +21,25 @@ Coding question: Given an array of integers of size n, and an integer k less tha
 input :2 5 3 0 1 , k=2
 output: 5 3 2 0 1
 Behavioural question: Challenges I faced and how I solved them.
+
+#2.#####################################################################
+https://www.glassdoor.com/Interview/Amazon-Data-Engineer-II-Interview-Questions-EI_IE6036.0,6_KO7,23.htm
+
+ applied online through amazon website. Recruiter contacted me through email and scheduled the first phone interview. The interviewer asked me about my experience. Then he started asking questions on dimensional modeling and data warehousing concepts
+a) why do we use a dimensional model?
+b) What are the advantages of surrogate keys? Why can't we use natural keys?
+c) Smart key
+d) Data vault
+e) Mini dimension
+f) Kimbal vs Inmon concept? What will you use for a project?
+
+Then he started with SQL qns. Had to tell him sql queries for a few scenarios. Most of the using window/analytical functions..
+
+Asked me whether I have any experience in BI tools
+
+A second phone interview was scheduled after 2 to 3 days. The interviewer started asking me about performance tuning in Oracle.. He asked me in detail about. Btree indexes - how do they work? Bit map indexes- What are the disadvantages ? how do we tune a query? partitioning... different types of join -- merge, hash , nested loop? When will index be not useful?The more I answered, he started asking in detail.
+
+Then he started with SQL -- ROLLUP and CUBE functions... Analytical functions.. Connect by etc,,,
+
+Then some basic questions.. Normalization, Data warehousing definition., Asked me how do you start designing a dimensional model.. etc
 #####################################################################
