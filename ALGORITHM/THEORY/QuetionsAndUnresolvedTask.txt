@@ -11,11 +11,7 @@ Linked List - implement Iterator
 #5.
 Linked List. Huffman Code
 
-#6. Tree - find a diagonal. Not sure about current solution
-
-#7. Check-given-binary-tree-complete-binary-tree-not
-https://www.techiedelight.com/check-given-binary-tree-complete-binary-tree-not/
-
+#6. Tree - delete a node
 
 #8.
 https://www.youtube.com/watch?v=nPtARJ2cYrg
