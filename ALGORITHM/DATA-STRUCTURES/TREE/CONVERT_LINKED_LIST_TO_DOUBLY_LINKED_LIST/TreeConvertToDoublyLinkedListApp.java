@@ -3,7 +3,7 @@ import java.util.Queue;
 
 
 /*2020-Sep-27. Oleksii Saiun. 
- * Convert LinkedList to Doubly LinkedList
+ * Convert Binary Tree to Doubly LinkedList in [in-order] mode
 
  * */
 class Tree {
