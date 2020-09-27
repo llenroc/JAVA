@@ -138,9 +138,9 @@ class Tree {
     }
 
     // -----------------------------------------------
-    // 7.BSF - [iterative1]
+    // 7.BFS - [iterative1]
     // 
-    public void BSF_iterative1(Node root) {
+    public void BFS_iterative1(Node root) {
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
 
@@ -158,8 +158,8 @@ class Tree {
         }
     }
     // -----------------------------------------------
-    // 8.BSF - [iterative2]
-    public void BSF_iterative2(Node root) {
+    // 8.BFS - [iterative2]
+    public void BFS_iterative2(Node root) {
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
 
@@ -230,11 +230,11 @@ public class BinaryTreeTraversalApp {
         tree.postOrderIterative(root);
         System.out.println();
 
-        System.out.println("Traversal in BSF way [iterative1]:");
-        tree.BSF_iterative1(root);
+        System.out.println("Traversal in BFS way [iterative1]:");
+        tree.BFS_iterative1(root);
         System.out.println();
-        System.out.println("Traversal in BSF way [iterative2]:");
-        tree.BSF_iterative2(root);
+        System.out.println("Traversal in BFS way [iterative2]:");
+        tree.BFS_iterative2(root);
         System.out.println();
 
         /*
