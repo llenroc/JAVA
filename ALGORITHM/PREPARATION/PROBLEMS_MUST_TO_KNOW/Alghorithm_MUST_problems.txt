@@ -76,6 +76,10 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #2. Power of two.
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23231_POWER_OF_TWO
 
+#3. Catalan Number
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/MATH/CATALAN_NUMBER_2
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/MATH/CATALAN_NUMBER_1
+
 
 ###########################################################
 ###Array
