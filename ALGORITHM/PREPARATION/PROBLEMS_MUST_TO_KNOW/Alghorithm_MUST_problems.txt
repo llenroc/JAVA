@@ -65,6 +65,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/
 #19. Construct Binary Tree from Preorder and Inorder Traversal
 https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23105_CONSTRUCT_BINARY_TREE_FROM_PREORDER_AND_INORDER_TRAVERSAL/Leetcode_%23105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java
 
+#20. Unique Binary Search Trees Catalan Number
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%2396_UNIQUE_BINARY_SEARCH_TREES_CATALAN_NUMBER
 ###########################################################
 ###Math
 ###########################################################
