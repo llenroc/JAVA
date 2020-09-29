@@ -70,6 +70,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #21. Convert Binary Tree to Doubly LinkedList in [in-order] mode
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONVERT_LINKED_LIST_TO_DOUBLY_LINKED_LIST
+
+#22. Flatten Binary Tree
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONVERT_FLATTEN_BINARY_TREE_TO_LINKED%20LIST
 ###########################################################
 ###Math
 ###########################################################
