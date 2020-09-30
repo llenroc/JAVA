@@ -73,6 +73,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/
 
 #22. Flatten Binary Tree. Trciky implementation to build Triin in [for] loop
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONVERT_FLATTEN_BINARY_TREE_TO_LINKED%20LIST
+
+#23. Serialize and Deserialize Binary Tree
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23297_SERIALIZE_AND_DESERIALIZE_BINARY_TREE
 ###########################################################
 ###Math
 ###########################################################
