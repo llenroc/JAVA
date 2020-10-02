@@ -76,6 +76,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/
 
 #23. Serialize and Deserialize Binary Tree
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23297_SERIALIZE_AND_DESERIALIZE_BINARY_TREE
+
 ###########################################################
 ###Math
 ###########################################################
@@ -97,6 +98,11 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/MATH/
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/ARRAY/CONVERT_BINARY_TO_DECIMAL
 
 
-
+###########################################################
+###SQL
+###########################################################
+#1. How make [exists] and [not exists] condition at the same time
+    Find buyers who bought Samsung, but have never bought iphone
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231083_SALES%20ANALYSIS_II
 
 
