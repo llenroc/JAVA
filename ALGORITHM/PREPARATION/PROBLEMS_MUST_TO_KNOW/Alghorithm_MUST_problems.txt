@@ -109,4 +109,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
     Find buyers who bought product A and B, but have never bought product C
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231398_CUSTOMERS_WHO_BOUGHT_PRODUCTS_A_AND_B_BUT_NOT_C
 
+#3. Example with [not] condition
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%23620_NOT%20BORING%20MOVIES
+
 
