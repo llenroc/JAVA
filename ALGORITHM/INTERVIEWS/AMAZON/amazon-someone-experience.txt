@@ -43,3 +43,7 @@ Then he started with SQL -- ROLLUP and CUBE functions... Analytical functions.. 
 
 Then some basic questions.. Normalization, Data warehousing definition., Asked me how do you start designing a dimensional model.. etc
 #####################################################################
+
+
+#3.#####################################################################
+https://leetcode.com/discuss/interview-experience/875585/amazon-sde-1-2-years-experienced-hyderabad
