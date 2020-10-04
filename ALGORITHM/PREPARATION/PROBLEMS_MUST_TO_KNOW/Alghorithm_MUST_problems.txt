@@ -105,4 +105,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/ARRAY
     Find buyers who bought Samsung, but have never bought iphone
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231083_SALES%20ANALYSIS_II
 
+#2. How make [exists] and [not exists] condition at the same time
+    Find buyers who bought product A and B, but have never bought product C
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231398_CUSTOMERS_WHO_BOUGHT_PRODUCTS_A_AND_B_BUT_NOT_C
+
 
