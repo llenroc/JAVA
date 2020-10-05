@@ -112,4 +112,6 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #3. Example with [not] condition
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%23620_NOT%20BORING%20MOVIES
 
+#4. Regular expression
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231517_FIND_USERS_WITH_VALID_E-MAILS
 
