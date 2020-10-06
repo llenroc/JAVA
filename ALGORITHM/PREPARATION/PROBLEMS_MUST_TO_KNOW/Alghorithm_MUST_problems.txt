@@ -69,7 +69,7 @@ https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%2396_UNIQUE_BINARY_SEARCH_TREES_CATALAN_NUMBER
 
 #21. Convert Binary Tree to Doubly LinkedList in [in-order] mode
-https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONVERT_LINKED_LIST_TO_DOUBLY_LINKED_LIST
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23426_CONVERT_BST_TO_SORTED_DOUBLY_LINKED_LIST
 
 #22. Flatten Binary Tree. Trciky implementation to build Triin in [for] loop
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONVERT_FLATTEN_BINARY_TREE_TO_LINKED%20LIST
