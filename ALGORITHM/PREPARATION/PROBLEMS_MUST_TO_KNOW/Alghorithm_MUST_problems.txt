@@ -99,6 +99,14 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/ARRAY
 
 
 ###########################################################
+###Linked List
+###########################################################
+#1. Circular linked list
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/LINKED_LIST/SINGLE_CIRCULAR_LINKED_LIST
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/LINKED_LIST/CIRCULAR_DOUBLY_LINKED_LIST
+
+
+###########################################################
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
