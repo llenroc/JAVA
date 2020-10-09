@@ -3,7 +3,7 @@ package math.catalan_number1;
 /*Oleksii Saiun. 2020-Sep-26. Count all unique BST
  * https://leetcode.com/problems/unique-binary-search-trees/submissions/
  * 
- * THis problem is known as Catalan number. It can be solved by formula.
+ * This problem is known as Catalan number. It can be solved by formula.
  * 
  *           [n-1]
  *  C(n)= SUM      C(i)*C(n-i-1);
