@@ -29,7 +29,7 @@ class Solution {
            return 0;
         }
         
-        int option1 = calcHeight(root.left) + calcHeight(root.right) +1;
+        int option1 = calcHeight(root.left) + calcHeight(root.right);
         int option2 = diameterOfBinaryTree(root.left);
         int option3 = diameterOfBinaryTree(root.right);
         
@@ -40,7 +40,7 @@ class Solution {
     {
         if ( root==null )
         {
-           return -1;
+           return 0;
         }
         
         
