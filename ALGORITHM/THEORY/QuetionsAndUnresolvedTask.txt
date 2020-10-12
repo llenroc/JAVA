@@ -11,8 +11,15 @@ Linked List - implement Iterator
 #5.
 Linked List. Huffman Code
 
-#6. Tree - delete a node
 
-#8.
+
+########
+##Tree
+#1.Complteness of tree
+https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23958_CHECK_COMPLETENESS_OF_A_BINARY_TREE/Leetcode_%23958_Check_Completeness_of_a_Binary_Tree.java
+
+#2.Tree - delete a node
+
+#3.
 https://www.youtube.com/watch?v=nPtARJ2cYrg
 All Nodes Distance K In A Binary Tree - Performing Bidirectional Search 
