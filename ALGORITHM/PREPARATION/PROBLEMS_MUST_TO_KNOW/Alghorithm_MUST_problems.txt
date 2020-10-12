@@ -55,7 +55,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #15. Balanced Binary Tree
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23110_BALANCED%20BINARY%20TREE
 
-#16. Is tree Complete. A simple but tricky solution. It is tricky. it does not use common construction if (tmpNode.left!=null) {...}
+#16. [??]Is tree Complete. A simple but tricky solution. It is tricky. it does not use common construction if (tmpNode.left!=null) {...}
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23958_CHECK_COMPLETENESS_OF_A_BINARY_TREE
 
 #17. Merge two binary trees
@@ -73,7 +73,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #21. Convert Binary Tree to Doubly LinkedList in [in-order] mode
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23426_CONVERT_BST_TO_SORTED_DOUBLY_LINKED_LIST
 
-#22. Flatten Binary Tree. Trciky implementation to build Triin in [for] loop
+#22. [??]Flatten Binary Tree. Trciky implementation to build Triin in [for] loop
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/CONVERT_FLATTEN_BINARY_TREE_TO_LINKED%20LIST
 
 #23. Serialize and Deserialize Binary Tree
