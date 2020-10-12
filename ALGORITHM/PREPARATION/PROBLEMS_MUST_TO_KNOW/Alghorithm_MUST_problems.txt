@@ -38,6 +38,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #10. Sum of Left Leaves
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23404_SUM_OF_LEFT_LEAVES
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23404_SUM_OF_LEFT_LEAVES_2
 
 #11. Distance between two nodes
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/DISTANCE_BETWEEN_TWO_NODES
