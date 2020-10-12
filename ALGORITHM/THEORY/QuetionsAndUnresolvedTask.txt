@@ -23,3 +23,5 @@ https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #3.
 https://www.youtube.com/watch?v=nPtARJ2cYrg
 All Nodes Distance K In A Binary Tree - Performing Bidirectional Search 
+
+#4. Flatten Binary Tree
