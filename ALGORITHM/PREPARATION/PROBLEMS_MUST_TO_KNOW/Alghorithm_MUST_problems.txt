@@ -92,6 +92,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/MATH/CATALAN_NUMBER_2
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/MATH/CATALAN_NUMBER_1
 
+#4. Reverse Integer
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/MATH/%237_REVERSE_INTEGER
+
 
 ###########################################################
 ###Array
