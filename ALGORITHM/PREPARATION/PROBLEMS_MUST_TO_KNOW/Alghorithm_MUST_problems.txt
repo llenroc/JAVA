@@ -40,8 +40,11 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23404_SUM_OF_LEFT_LEAVES
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23404_SUM_OF_LEFT_LEAVES_2
 
-#11. Distance between two nodes
+#11.A Distance between two nodes
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/DISTANCE_BETWEEN_TWO_NODES
+
+#11.B Distance path two nodes
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/FIND_PATH_BETWEEN_TWO_NODES
 
 #12. Minimum Absolute Difference in BST
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23530_MINIMUM_ABSOLUTE_DIFFERENCE_IN_BST
