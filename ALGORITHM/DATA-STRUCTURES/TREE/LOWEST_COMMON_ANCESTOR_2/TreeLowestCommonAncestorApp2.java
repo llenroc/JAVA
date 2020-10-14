@@ -49,12 +49,12 @@ class Tree {
 		
 		if(root.getValue() == keyNode1.getValue())
 		{
-			return root;
+			return root; //MUST RETURN ROOT INSTEAD OF [keyNode1 tree]. YOU NEED ROOT IN INRDER TO HAVE LINKS TO CHILDS NODES - LIkE A SUBTREE
 		}
 		
 		if(root.getValue() == keyNode2.getValue())
 		{
-			return root;
+			return root;//MUST RETURN ROOT INSTEAD OF [keyNode2 tree]. YOU NEED ROOT IN INRDER TO HAVE LINKS TO CHILDS NODES - LIkE A SUBTREE
 		}
 		
         Node leftNode = lowestCommonAncestor(root.left,keyNode1,keyNode2);
