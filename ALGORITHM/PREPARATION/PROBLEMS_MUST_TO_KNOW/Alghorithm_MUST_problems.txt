@@ -82,6 +82,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/
 #23. Serialize and Deserialize Binary Tree
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23297_SERIALIZE_AND_DESERIALIZE_BINARY_TREE
 
+#24. Find path from root to node
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/FIND_PATH_FROM_ROOT_TO_NODE
+
 ###########################################################
 ###Math
 ###########################################################
