@@ -5,8 +5,10 @@
  * arr={ 2, 1, 5, 2, 3, 2 };
  * sum=7;
  * result: 2;
+ * 
+ * Space complexity: O(N+N)=O(N)
+ * Time complexity: O(1)
  * */
-
 class Calc {
 	public int findMinSubArray(int[] arr, int s) {
 		int startWindow = 0;
