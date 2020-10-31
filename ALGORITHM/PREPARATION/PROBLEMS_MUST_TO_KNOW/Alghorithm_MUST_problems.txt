@@ -122,6 +122,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/LINKE
 #1. Maximum Number of Vowels in a Substring
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%231456_MAXIMUMNUMBEROFVOWELS_IN_SUBSTRING
 
+#2. Max Consecutive Ones numbers in a binary array
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_SLIDING_WINDOW/%23485_MAX_CONSECUTIVE_ONES
+
 ###########################################################
 ###SQL
 ###########################################################
