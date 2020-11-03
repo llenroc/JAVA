@@ -128,6 +128,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #3. Longest Substring Without Repeating Characters
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_SLIDING_WINDOW/%233_LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS
+
+#4. Longest Substring with At Most K Distinct Characters
+https://github.com/oleksiisaiun/JAVA/new/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_SLIDING_WINDOW
 ###########################################################
 ###SQL
 ###########################################################
