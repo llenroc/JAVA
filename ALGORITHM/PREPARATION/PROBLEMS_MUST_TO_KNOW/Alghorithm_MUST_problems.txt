@@ -101,7 +101,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/MATH/
 #4. Reverse Integer
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/MATH/%237_REVERSE_INTEGER
 
-
+#5. Convert Binary Number in a Linked List to Integer
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/MATH/%231290_LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS
 ###########################################################
 ###Array
 ###########################################################
