@@ -131,7 +131,14 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #4. Longest Substring with At Most K Distinct Characters
 https://github.com/oleksiisaiun/JAVA/new/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_SLIDING_WINDOW
+
 ###########################################################
+###Sorting
+###########################################################
+#1. Merge Sort
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SORTING/%23912_SORT_ARRAY
+###########################################################
+
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
