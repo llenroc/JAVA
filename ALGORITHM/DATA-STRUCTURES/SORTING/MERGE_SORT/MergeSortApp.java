@@ -20,6 +20,9 @@ class MySort {
 
 
 	public void mergeSort(int[] arr) {
+		split(arr);
+	}
+	private void split(int[] arr) {
 		int length = arr.length;
 		
 		if (arr.length < 2) {
@@ -39,8 +42,8 @@ class MySort {
 			}
 		}
 
-		mergeSort(arrLeft);
-		mergeSort(arrRight);
+		split(arrLeft);
+		split(arrRight);
 		mergeArrays(arr, arrLeft, arrRight);
 	}
 
