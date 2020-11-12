@@ -137,6 +137,9 @@ https://github.com/oleksiisaiun/JAVA/new/master/ALGORITHM/DATA-STRUCTURES/SOLUTI
 ###########################################################
 #1. Merge Sort
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SORTING/%23912_SORT_ARRAY
+
+#2. Move Zeroes to the right end
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SORTING/%23283_MOVE_ZEROES
 ###########################################################
 
 ###SQL
