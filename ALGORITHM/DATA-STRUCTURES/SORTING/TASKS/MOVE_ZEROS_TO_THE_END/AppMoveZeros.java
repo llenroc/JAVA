@@ -3,6 +3,11 @@
 LeetCode_#283. Move Zeroes
 https://leetcode.com/problems/sort-an-array/
 
+input:
+0 1 0 3 12 
+output:
+1 3 12 0 0 
+
 Solution:
 		// move all not null elements to the left
 		// we keep a track for two pointers. The first - current position in array. The second pointer - is a pointer for not 0 values
