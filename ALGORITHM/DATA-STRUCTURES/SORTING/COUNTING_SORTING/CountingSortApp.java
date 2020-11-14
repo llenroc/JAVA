@@ -44,10 +44,10 @@ class MySort {
 			arrB[j] = sum;
 		}
 
-		// #4. create final array which will contain ordered element
+		// #5. create final array which will contain ordered element
 		int arrC[] = new int[arrA.length];
 
-		// #5. populate ordered element
+		// #6. populate ordered element
 		for (int j = 0; j < arrA.length; j++) {
 			int valueOfA = arrA[j];
 			int indexOfB = valueOfA;
@@ -59,7 +59,7 @@ class MySort {
 			arrC[indexOfC] = valueOfC;
 		}
 
-		// #6. copy values from a temporary arrC to the original arrA in an ordered way
+		// #7. copy values from a temporary arrC to the original arrA in an ordered way
 		for (int j = 0; j < arrA.length; j++) {
 			arrA[j] = arrC[j];
 		}
