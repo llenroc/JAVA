@@ -25,13 +25,12 @@ kjeannetti@wayfair.com
 ##############################
 ##4.##The Michaels stores
 ##############################
-Emma Sun
+#1.Emma Sun
 https://www.linkedin.com/in/emma-sun-3937491aa/
 
 ##############################
 ##5. Amazon
 ##############################
-1.
-Peter Begina
+#1.Peter Begina
 pbegina@amazon.com
 https://www.linkedin.com/in/peter-begina-9723a7101/
