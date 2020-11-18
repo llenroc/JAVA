@@ -7,3 +7,13 @@ https://www.geeksforgeeks.org/amazon-interview-set-82-for-sde-2/
 
 #3. Amazon
 https://www.amazon.jobs/en/landing_pages/interviewing-at-amazon
+
+#4. Amazon Data Engineer role
+I was asked a total of three questions on SQL and some questions on data warehousing
+Find the skip - level manager of each employee
+Find all books that are available in more than 50% of the languages? Optimize it use a single select statement
+Find current month rank v/s previous month rank for each product based on sales.
+DW :
+Difference between MPP and SMP databases
+Performance issues/optimization
+Fact and Dimension tables
