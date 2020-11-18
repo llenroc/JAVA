@@ -31,7 +31,7 @@ class MySort {
 			Collections.sort(bucket[j]);
 		}
 
-		// 3. Merge buckets into an original array
+		// 4. Merge buckets into an original array
 		int index = 0;
 		for (int j = 0; j < bucketSize; j++) {
 			for (int k = 0; k < bucket[j].size(); k++) {
@@ -40,8 +40,8 @@ class MySort {
 		}
 	}
 
-	// 2. Populate buckets
-	public int getBucket(int key, int bucketSize) {
+	// get a bucket
+	private int getBucket(int key, int bucketSize) {
 		return key / bucketSize;
 	}
 }
