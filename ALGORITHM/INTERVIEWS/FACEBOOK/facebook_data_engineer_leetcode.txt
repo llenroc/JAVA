@@ -1,0 +1,51 @@
+Facebook | Phone | Data engineer
+40
+Anonymous User
+Anonymous User
+Last Edit: May 12, 2020 8:31 PM
+
+6.7K VIEWS
+
+Status: Experienced
+Position: Senior Data Engineer
+Location: Menlo Park, CA
+Duration: 1 hour
+
+Questions asked Python:
+
+find the average length of word in sentence
+sentence = "Hi my name is Bob"
+words = sentence.split()
+print(words)
+average=1.0* sum(len(word)for word in words)/len(words)
+print(average)
+
+2)Validate the ip address
+
+def validate(ip):
+valid_digit=set('0123456789')
+a=ip.split('.')
+if len(a)!=4:
+return False
+for x in a:
+if not x.isdigit():
+return False
+i=int(x)
+if i < 0 or i> 255:
+return False
+return True
+print(validate('127.0.0.b'))
+
+for a list array=[['D'],['A','B'],['A','C'],['C','A']] find the number of followers
+Ans
+D=0
+A=2
+c=1
+
+I could only answer two sql questions. they gave a schema similar to the example provided in the mail
+
+find the sales people with average sale greater then 3 atleast selling two products.
+Answer is first find the average then having clause.
+
+what is the total percentage of sale of a product compared to sales.
+Facebook technical screening is one of the easiest interview to clear.
