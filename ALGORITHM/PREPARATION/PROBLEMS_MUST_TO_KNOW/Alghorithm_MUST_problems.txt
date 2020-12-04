@@ -138,6 +138,8 @@ https://github.com/oleksiisaiun/JAVA/new/master/ALGORITHM/DATA-STRUCTURES/SOLUTI
 #1. Kth Largest Element in an Array
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23215_KTH_LARGEST_ELEMENT_IN_ARRAY
 
+#2. K Closest Points to Origin
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23973_K_CLOSEST_POINTS_TO_ORIGIN
 ###########################################################
 ###Sorting
 ###########################################################
