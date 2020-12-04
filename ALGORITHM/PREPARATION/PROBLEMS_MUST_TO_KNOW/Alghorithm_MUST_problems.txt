@@ -133,6 +133,12 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/new/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_SLIDING_WINDOW
 
 ###########################################################
+###Heaps
+###########################################################
+#1. Kth Largest Element in an Array
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23215_KTH_LARGEST_ELEMENT_IN_ARRAY
+
+###########################################################
 ###Sorting
 ###########################################################
 #1. Merge Sort
