@@ -1,3 +1,5 @@
+package heap.k_closest_points_to_origin;
+
 import java.util.PriorityQueue;
 
 /*2020-Dec-04. Oleksii Saiun. 'K' Closest Points to the Origin
@@ -48,9 +50,11 @@ class Calc {
 
 	public void printMatrix(int[][] matr) {
 		for (int row = 0; row < matr.length; row++) {
+			System.out.print("[ ");
 			for (int col = 0; col < matr[row].length; col++) {
 				System.out.print(matr[row][col] + " ");
 			}
+			System.out.print("]");
 			System.out.println();
 		}
 	}
@@ -69,7 +73,11 @@ public class K_ClosestPointsToOrigin {
 		Calc calc = new Calc();
 		int[][] matr = { { 3, 3 }, { 5, -1 }, { -2, 4 } };
 		int k = 2;
+		System.out.println("input:");
+		calc.printMatrix(matr);
+		//call the main method:
 		int out[][] = calc.kClosest(matr, k);
+		System.out.println("output:");
 		calc.printMatrix(out);
 		System.out.println();
 	}
