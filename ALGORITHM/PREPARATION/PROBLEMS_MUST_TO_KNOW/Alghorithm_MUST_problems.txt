@@ -135,16 +135,22 @@ https://github.com/oleksiisaiun/JAVA/new/master/ALGORITHM/DATA-STRUCTURES/SOLUTI
 ###########################################################
 ###Heaps
 ###########################################################
+***********************************************************
 #A. Largest smallest elements problem
 #1. Kth Largest Element in an Array
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23215_KTH_LARGEST_ELEMENT_IN_ARRAY
 
+#2.Top K Frequent Elements
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23347_TOP_K_FREQUENT_ELEMENTS
+
+***********************************************************
 #B. Find mi/max distance
-#2. K Closest Points to Origin
+#3. K Closest Points to Origin
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23973_K_CLOSEST_POINTS_TO_ORIGIN
 
+***********************************************************
 #C. Find min/max cost
-#3. Minimum Cost to Connect Sticks
+#4. Minimum Cost to Connect Sticks
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%231167_MINIMUM_COST_CONNECT_STICKS
 ###########################################################
 ###Sorting
