@@ -145,6 +145,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #3.Top K Frequent Elements.  Super trick in comparator: based on a task we handle two cases if values are the same we return value of compare of strings else check freq
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23692_TOP_K_FREQUENT_WORDS
+
+#4. Sort Array by Increasing Frequency. Super trick in comparator
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%231636_SORT_ARRAY_BY_INCREASING_FREQUENCY
 ***********************************************************
 #B. Find min/max distance
 #3. K Closest Points to Origin
