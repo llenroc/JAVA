@@ -143,8 +143,10 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #2.Top K Frequent Elements
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23347_TOP_K_FREQUENT_ELEMENTS
 
+#3.Top K Frequent Elements.  Super trick in comparator: based on a task we handle two cases if values are the same we return value of compare of strings else check freq
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23692_TOP_K_FREQUENT_WORDS
 ***********************************************************
-#B. Find mi/max distance
+#B. Find min/max distance
 #3. K Closest Points to Origin
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23973_K_CLOSEST_POINTS_TO_ORIGIN
 
