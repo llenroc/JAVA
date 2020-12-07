@@ -165,6 +165,12 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #2. Move Zeroes to the right end
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SORTING/%23283_MOVE_ZEROES
+
+###########################################################
+###HashMap
+###########################################################
+#1. First Unique Character in a String
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%23451_FIRST_UNIQUE_CHARACTER_IN_STRING
 ###########################################################
 
 ###SQL
