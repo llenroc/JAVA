@@ -155,6 +155,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #B. Find min/max distance
 #7. K Closest Points to Origin
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23973_K_CLOSEST_POINTS_TO_ORIGIN
+#9. Reorganize String
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23767_REORGANIZE_STRING
 
 ***********************************************************
 #C. Find min/max cost
