@@ -151,10 +151,13 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #5. Kth Largest Element in a Stream
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23703_KTH_LARGEST_ELEMENT_IN_STREAM
+
 ***********************************************************
 #B. Find min/max distance
 #7. K Closest Points to Origin
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/%23973_K_CLOSEST_POINTS_TO_ORIGIN
+***********************************************************
+#C. Distance
 #9. Reorganize String
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23767_REORGANIZE_STRING
 
@@ -162,6 +165,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #C. Find min/max cost
 #8. Minimum Cost to Connect Sticks
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%231167_MINIMUM_COST_CONNECT_STICKS
+
 ###########################################################
 ###Sorting
 ###########################################################
