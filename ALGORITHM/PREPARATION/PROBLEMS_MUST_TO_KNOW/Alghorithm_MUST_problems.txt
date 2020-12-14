@@ -187,6 +187,14 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%23451_FIRST_UNIQUE_CHARACTER_IN_STRING
 ###########################################################
 
+###########################################################
+###Array
+###########################################################
+#1. Monotonic Array. (!) one of the most popular Facebook's interview questions
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/ARRAY/%23896_MONOTONIC_ARRAY
+###########################################################
+
+
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
