@@ -192,6 +192,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 ###########################################################
 #1. Monotonic Array. (!) one of the most popular Facebook's interview questions
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/ARRAY/%23896_MONOTONIC_ARRAY
+
+#2. Merge Sorted arrays. Two pointers approach
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/ARRAY/%23896_MONOTONIC_ARRAY/%2388_MERGE_SORTED_ARRAY
 ###########################################################
 
 
