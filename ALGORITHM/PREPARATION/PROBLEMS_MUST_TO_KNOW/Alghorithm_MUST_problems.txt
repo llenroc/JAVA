@@ -166,7 +166,10 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #10. Minimum Cost to Connect Sticks
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%231167_MINIMUM_COST_CONNECT_STICKS
 
-
+***********************************************************
+#D.Merge K lists. Super tricky with dummy and head nodes
+#11. Minimum Cost to Connect Sticks
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%2323_MERGE_K_SORTED_LISTS
 ***********************************************************
 #E. Reordering String
 #11. TASK_SCHEDULER
