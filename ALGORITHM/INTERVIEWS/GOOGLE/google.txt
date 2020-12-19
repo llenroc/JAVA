@@ -1,3 +1,6 @@
+--(!) google process
+https://leetcode.com/explore/featured/card/google/
+
 --prepare for google
 https://www.mtu.edu/career/students/networking/interviews/prepare.pdf
 https://www.coriers.com/the-interview-study-guide-for-data-engineers/
