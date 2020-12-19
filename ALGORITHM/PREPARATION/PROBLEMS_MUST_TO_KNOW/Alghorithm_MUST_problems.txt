@@ -198,6 +198,13 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 ###########################################################
 
 
+###########################################################
+###Linked List. 
+###########################################################
+#1. Merge Two Sorted Lists. Super tricky with dummy and head node
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%2321_MERGE_TWO_SORTED_LISTS
+
+
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
