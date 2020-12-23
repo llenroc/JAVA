@@ -174,6 +174,10 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #E. Reordering String
 #11. TASK_SCHEDULER
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/HEAPS/%23621_TASK_SCHEDULER
+
+##F. Using a new node
+#12. Smallest Range Elements from K Lists
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23632_SMALLEST_RANGE_COVERING_ELEMENTS_FROM_K_LISTS
 ###########################################################
 ###Sorting
 ###########################################################
