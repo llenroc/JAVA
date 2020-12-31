@@ -1,1 +1,8 @@
+##########
+#1.
 https://www.geeksforgeeks.org/tag/linkedin/
+
+
+##########
+#2.LinkedIn Leetcode questions:
+https://leetcode.com/company/linkedin/
