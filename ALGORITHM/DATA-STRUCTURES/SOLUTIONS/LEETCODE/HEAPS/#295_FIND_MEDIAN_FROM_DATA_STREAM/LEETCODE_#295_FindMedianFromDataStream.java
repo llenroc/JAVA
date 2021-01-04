@@ -22,7 +22,10 @@ class MedianFinder {
         
     }
     
-    public void addNum(int num) {        
+    public void addNum(int num) { 
+        /*
+        * [maxHeap.isEmpty()] condition meeans we insert first there when it's empty. For example, when both heaps are empty
+        */
         if (maxHeap.isEmpty() || num<maxHeap.peek())
         {
             maxHeap.offer(num);
@@ -34,7 +37,9 @@ class MedianFinder {
         
         int sizeOfMaxHeap = maxHeap.size();
         int sizeOfMinHeap = minHeap.size();
-        
+        /*
+        * 2. when size of one of heaps is higher than other more than 1 we rebalanace - poll element from bigger heap and insert inth smaller
+        */        
         if( sizeOfMaxHeap - sizeOfMinHeap >1)
         {
             int tmpVal = maxHeap.poll();
@@ -51,6 +56,13 @@ class MedianFinder {
         double out;
         int sizeOfMaxHeap = maxHeap.size();
         int sizeOfMinHeap = minHeap.size();
+        
+        /*
+        *  A logic of calculation median:
+        *  1) when a size of array is even than medium is ([top from maxHeap] - [top from minHeap])/2
+        *  2) when a size of array is odd than medium is a top element from heap pf higher size
+        */       
+        
         if (sizeOfMaxHeap==sizeOfMinHeap)
         {
             out = (double) (maxHeap.peek() + minHeap.peek())/2;
