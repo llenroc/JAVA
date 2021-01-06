@@ -215,7 +215,11 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #1. Merge Two Sorted Lists. Super tricky with dummy and head node
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%2321_MERGE_TWO_SORTED_LISTS
 
-
+###########################################################
+###Hash Map
+###########################################################
+#1. Two Sum - using hashmap approach
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%231_TWO_SUM
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
