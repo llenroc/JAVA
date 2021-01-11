@@ -143,6 +143,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #2.2.Remove Duplicates from Sorted Array - with extra space
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/PATTERN_TWO_POINTERS/REMOVE_DUPS_SORTED_ARR_WITH_EXTRA_SPACE
 
+#3. Remove element - quite tricky, but simple using two pointers
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%2327_REMOVE_ELEMENT
+
 ###########################################################
 ###Heaps
 ###########################################################
