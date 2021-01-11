@@ -138,6 +138,11 @@ https://github.com/oleksiisaiun/JAVA/new/master/ALGORITHM/DATA-STRUCTURES/SOLUTI
 #1. Two Sum II - Input array is sorted
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%23167_TWO_SUM_II-INPUT_ARRAY_IS_SORTED
 
+#2.1.Remove Duplicates from Sorted Array - without extra space
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%2326_REMOVE_DUPLICATES_FROM_SORTED_ARRAY
+#2.2.Remove Duplicates from Sorted Array - with extra space
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/PATTERN_TWO_POINTERS/REMOVE_DUPS_SORTED_ARR_WITH_EXTRA_SPACE
+
 ###########################################################
 ###Heaps
 ###########################################################
