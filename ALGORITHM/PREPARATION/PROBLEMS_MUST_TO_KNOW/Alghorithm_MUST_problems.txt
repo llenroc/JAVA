@@ -239,6 +239,14 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 ###########################################################
 #1. Two Sum - using hashmap approach
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%231_TWO_SUM
+
+#2. Single Number
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%23136_SINGLE_NUMBER
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%23137_SINGLE_NUMBER_II
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%23260_SINGLE_NUMBER_III
+
+
+###########################################################
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
