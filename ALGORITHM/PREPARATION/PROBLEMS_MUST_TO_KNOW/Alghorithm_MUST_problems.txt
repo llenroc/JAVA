@@ -158,6 +158,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #7. Dutch flag national problem
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%2375_SORT_COLORS
 
+#8_1. 3sum. Solving using hashmap approach
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%2315_3Sum_APPROACH1_HASHMAP
+
 ###########################################################
 ###Heaps
 ###########################################################
