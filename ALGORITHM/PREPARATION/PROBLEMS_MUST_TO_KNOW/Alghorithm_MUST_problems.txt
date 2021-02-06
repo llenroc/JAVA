@@ -160,8 +160,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #8_1. 3sum. Solving using hashmap approach
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%2315_3Sum_APPROACH1_HASHMAP
-#8_2. 3sum. Solving using hashmap approach
-#15_3SUM_APPROACH2/LEETCODE_#15_3Sum_approach2.java
+#8_2. 3sum. Solving using two pointers approach
+https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%2315_3SUM_APPROACH2/LEETCODE_%2315_3Sum_approach2.java
+
 ###########################################################
 #B. SUB ARRAY PROBLEMS
 #1. Subarray Product Less Than K. The tickies part is here  = to find number of possible combination  for sub array is just calc by formula [i;j] = j-i+1    
