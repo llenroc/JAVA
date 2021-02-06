@@ -168,6 +168,14 @@ https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #1. Subarray Product Less Than K. The tickies part is here  = to find number of possible combination  for sub array is just calc by formula [i;j] = j-i+1    
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%23713_SUBARRAY_PRODUCT_LESS%20_THAN_K
 
+#2. 3Sum Smaller. Tricky:                /*
+                                   It's pretty easy to understand since we are sorting the array,
+                                  now anything between left and right, if it satisfies the condition, will also satisfy the                condition of sum smaller   
+                                  than target. Since we are interested to find all the possible                    combinations, so each number between the two limit  
+                                  will make different combinations with                  the fixed element. 
+*/
+   
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%23259_3SUM_SMALLER
 ###########################################################
 ###Heaps
 ###########################################################
