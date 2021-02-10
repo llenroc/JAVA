@@ -117,6 +117,11 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/ARRAY
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/LINKED_LIST/SINGLE_CIRCULAR_LINKED_LIST
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/LINKED_LIST/CIRCULAR_DOUBLY_LINKED_LIST
 
+#2.A Detect loop in a linked list. Fast and Slow pattern
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23141_LINKED_LIST_CYCLE
+
+#3. Detect beginning of loop in a linked list. Fast and Slow pattern
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23142_LINKED_LIST_CYCLE_II
 ###########################################################
 ###Sliding Window Pattern
 ###########################################################
