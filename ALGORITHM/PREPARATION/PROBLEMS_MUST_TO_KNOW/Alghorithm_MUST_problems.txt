@@ -169,6 +169,15 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/blob/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%2315_3SUM_APPROACH2/LEETCODE_%2315_3Sum_approach2.java
 
 ###########################################################
+###Fast and Slow Pattern
+###########################################################
+#1. Detect loop in a linked list. Fast and Slow pattern
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23141_LINKED_LIST_CYCLE
+
+#2. Detect beginning of loop in a linked list. Fast and Slow pattern
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23142_LINKED_LIST_CYCLE_II
+
+###########################################################
 #B. SUB ARRAY PROBLEMS
 #1. Subarray Product Less Than K. The tickies part is here  = to find number of possible combination  for sub array is just calc by formula [i;j] = j-i+1    
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_TWO_POINTERS/%23713_SUBARRAY_PRODUCT_LESS%20_THAN_K
