@@ -122,6 +122,10 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #3. Detect beginning of loop in a linked list. Fast and Slow pattern
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23142_LINKED_LIST_CYCLE_II
+
+#4. Middle of linked list. Fast and Slow pattern
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23876_MIDDLE_OF_THE_LINKED_LIST
+
 ###########################################################
 ###Sliding Window Pattern
 ###########################################################
@@ -176,6 +180,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #2. Detect beginning of loop in a linked list. Fast and Slow pattern
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23142_LINKED_LIST_CYCLE_II
+
+#3. Middle of linked list. Fast and Slow pattern
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23876_MIDDLE_OF_THE_LINKED_LIST
 
 ###########################################################
 #B. SUB ARRAY PROBLEMS
