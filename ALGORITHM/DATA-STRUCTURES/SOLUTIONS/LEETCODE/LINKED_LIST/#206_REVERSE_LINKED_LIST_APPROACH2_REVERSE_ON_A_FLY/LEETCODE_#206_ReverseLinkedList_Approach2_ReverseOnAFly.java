@@ -22,18 +22,18 @@ class Solution {
         {
             return null;
         }
-        ListNode reversedLinkedList = new ListNode(head.val);
+        ListNode headOfReversedLL = new ListNode(head.val);
         head=head.next;
         
         while(head!=null)
         {
             ListNode newNode = new ListNode(head.val);
-            newNode.next=reversedLinkedList;
-            reversedLinkedList=newNode;
+            newNode.next=headOfReversedLL;
+            headOfReversedLL=newNode;
 
             head=head.next;
         }
         
-        return reversedLinkedList;
+        return headOfReversedLL;
     }
 }
