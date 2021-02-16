@@ -25,11 +25,11 @@ class Solution {
         while(!stack.isEmpty())
         {
            ListNode newNode = new ListNode(stack.pop());
-           head.next=newNode;
-           head=newNode;
+           dummy.next=newNode;
+           dummy=dummy.next;
           
         }
-        return dummy.next;
+        return head.next;
     }
     
     private Stack<Integer> populateStack(ListNode head)
