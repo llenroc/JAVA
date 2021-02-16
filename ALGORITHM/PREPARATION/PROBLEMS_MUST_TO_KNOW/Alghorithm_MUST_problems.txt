@@ -129,7 +129,10 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #5. Merge Two Sorted Lists. Super tricky with dummy and head node
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%2321_MERGE_TWO_SORTED_LISTS
 
-#6.A Reverse Linked list. Approach 1. Stack
+#6. Merge K Sorted Lists. 
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%2323_MERGE_K_SORTED_LISTS
+
+#7.A Reverse Linked list. Approach 1. Stack
 
 ###########################################################
 ###Sliding Window Pattern
