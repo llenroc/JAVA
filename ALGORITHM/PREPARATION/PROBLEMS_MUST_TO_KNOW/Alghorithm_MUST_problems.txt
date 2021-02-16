@@ -132,7 +132,11 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #6. Merge K Sorted Lists. 
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%2323_MERGE_K_SORTED_LISTS
 
-#7.A Reverse Linked list. Approach 1. Stack
+#7.A. Reverse Linked list. Approach 1. Stack
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%23206_REVERSE_LINKED_LIST_APPROACH1_STACK
+
+#7.B. Reverse Linked list. Approach 2. Reverse on a fly
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%23206_REVERSE_LINKED_LIST_APPROACH2_REVERSE_ON_A_FLY
 
 ###########################################################
 ###Sliding Window Pattern
