@@ -126,6 +126,11 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #4. Middle of linked list. Fast and Slow pattern
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23876_MIDDLE_OF_THE_LINKED_LIST
 
+#5. Merge Two Sorted Lists. Super tricky with dummy and head node
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%2321_MERGE_TWO_SORTED_LISTS
+
+#6.A Reverse Linked list. Approach 1. Stack
+
 ###########################################################
 ###Sliding Window Pattern
 ###########################################################
@@ -271,14 +276,6 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #2. Merge Sorted arrays. Two pointers approach
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/ARRAY/%23896_MONOTONIC_ARRAY/%2388_MERGE_SORTED_ARRAY
-###########################################################
-
-
-###########################################################
-###Linked List. 
-###########################################################
-#1. Merge Two Sorted Lists. Super tricky with dummy and head node
-https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%2321_MERGE_TWO_SORTED_LISTS
 
 ###########################################################
 ###Hash Map
