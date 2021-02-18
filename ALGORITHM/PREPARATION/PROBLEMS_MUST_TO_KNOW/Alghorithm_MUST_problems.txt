@@ -138,6 +138,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #7.B. Reverse Linked list. Approach 2. Reverse on a fly
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%23206_REVERSE_LINKED_LIST_APPROACH2_REVERSE_ON_A_FLY
 
+#8. Remove Duplicates from Sorted List. Need to know how to insert nodes in a linked list(tricky with pointer)
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/LINKED_LIST/%2383_REMOVE_DUPLICATES_FROM_SORTED_LIST
 ###########################################################
 ###Sliding Window Pattern
 ###########################################################
