@@ -17,3 +17,6 @@ DW :
 Difference between MPP and SMP databases
 Performance issues/optimization
 Fact and Dimension tables
+
+#5.
+https://leetcode.com/discuss/interview-question/1017328/Amazon-Data-Engineering-Phone-Interview-Questions
