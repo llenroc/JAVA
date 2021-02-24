@@ -313,7 +313,15 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #2. Valid Palindrome. Iteresting methods: Character.isLetterOrDigit(val) and Character.toLowerCase(val)
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STRING/%23125_VALID_NUMBER
 
-
+#3. Valid Palindrome 2. 
+       /* it's an interesting case when there is a mismatch. According to the task we can skip ignore one symbol
+        *   if there is a mismatch. Now the question is what what to skip - "to the left" or "to the right"
+        *  For example, 
+        * "abbxa" - we should skip [x] and move from the right to make sure it's a palindrome
+        *   "axbba" - we should skip [x] and move from the left to make sure it's a palindrome
+        * That's why we will move from the left and from the right to hope it will return the true
+*/
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STRING/%23680_VALID%20PALINDROME_II
 ###########################################################
 ###String
 ###########################################################
