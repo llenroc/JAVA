@@ -125,8 +125,11 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/LINKE
 #2.A Detect loop in a linked list. Fast and Slow pattern
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23141_LINKED_LIST_CYCLE
 
-#3. Detect beginning of loop in a linked list. Fast and Slow pattern
+#3.A Detect beginning of loop in a linked list. Approach 1. Fast and Slow pattern
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23142_LINKED_LIST_CYCLE_II
+
+#3.B Detect beginning of loop in a linked list. Approach 2. HashSet approach
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%23680_LINKED_LIST_CYCLE_II_APPROACH2_HASHSET
 
 #4. Middle of linked list. Fast and Slow pattern
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_FAST_AND_SLOW/%23876_MIDDLE_OF_THE_LINKED_LIST
