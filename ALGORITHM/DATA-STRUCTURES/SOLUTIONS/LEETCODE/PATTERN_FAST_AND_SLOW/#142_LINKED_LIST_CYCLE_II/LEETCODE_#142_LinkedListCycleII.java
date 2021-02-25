@@ -4,6 +4,11 @@ LeetCode_#142. Linked List Cycle II
 https://leetcode.com/problems/linked-list-cycle-ii/
 
 Approach 1. Fast and Slow pattern
+
+If we know the length of the LinkedList cycle, we can find the start of the cycle through the following steps:
+ A) Initialize both pointers to point to the start(head) of the LinkedList.
+ B) Move pointer2 ahead by ‘K’ nodes.
+ C) Now, keep incrementing pointer1 and pointer2 until they both meet.
 */
 
 /**
