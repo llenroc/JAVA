@@ -334,6 +334,13 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 
 ###########################################################
+###Dynamic Programming. Fibonacci numbers. Pattern1
+###########################################################
+
+#3. Find 1137. N-th Tribonacci Number
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%231137_TRIBONACCI_NUMBER
+
+###########################################################
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
