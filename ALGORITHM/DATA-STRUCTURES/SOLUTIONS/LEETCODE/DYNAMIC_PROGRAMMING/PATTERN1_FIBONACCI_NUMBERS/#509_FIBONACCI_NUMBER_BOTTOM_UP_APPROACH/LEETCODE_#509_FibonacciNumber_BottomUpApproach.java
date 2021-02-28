@@ -4,7 +4,7 @@ LeetCode_#509. Fibonacci Number
 https://leetcode.com/problems/fibonacci-number/
 
 Time Complexity O(n)
-Space Complexity O(n)
+Space Complexity O(1)
 Pattern: bottom-up (tabulation)
 */
 
