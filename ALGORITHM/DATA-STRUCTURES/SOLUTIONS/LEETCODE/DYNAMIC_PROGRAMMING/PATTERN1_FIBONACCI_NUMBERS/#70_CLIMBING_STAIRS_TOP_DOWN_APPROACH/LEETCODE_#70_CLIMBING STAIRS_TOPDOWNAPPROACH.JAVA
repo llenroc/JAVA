@@ -5,7 +5,7 @@ https://leetcode.com/problems/climbing-stairs/
 
 Time Complexity O(n)
 Space Complexity O(n)
-Pattern: top-down (tabulation)
+Pattern: top-down (memoization)
 */
 
 class Solution {
