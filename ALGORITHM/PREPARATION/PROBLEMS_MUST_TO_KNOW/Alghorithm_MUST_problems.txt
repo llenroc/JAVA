@@ -340,8 +340,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 ###########################################################
 
 #3. Find 1137. N-th Tribonacci Number
-https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%231137_TRIBONACCI_NUMBER
-
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%231137_TRIBONACCI_NUMBER
 ###########################################################
 ###SQL
 ###########################################################
