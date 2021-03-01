@@ -77,12 +77,17 @@ https://www.linkedin.com/in/danieljolo/
 ##############################
 ##12. Apple 
 ##############################
-1.  (linkedin)
-Igor Rudyak
+1.  Igor Rudyak
 https://www.linkedin.com/in/igor-rudyak-9b335660/
+
+2. Ivan Kaplin (linkedin)
+https://www.linkedin.com/in/ivankaplin/
 
 ##############################
 ##13. Microsoft 
 ##############################
 1.  Mikhail Prudnikov (linkedin)
 https://www.linkedin.com/in/mprudnikov/
+
+2. Yevgen Borodkin (linkedin)
+https://www.linkedin.com/in/yevgen-borodkin-38111341/
