@@ -354,6 +354,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/DYNAMIC_PROGRAMMING/STAIRCASE_THREE_STAIRS_BOTTOM_UP
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/DYNAMIC_PROGRAMMING/STAIRCASE_THREE_STAIRS_TOP_DOWN
 
+#5. House robber
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%23198_HOUSE_ROBBER
 ###########################################################
 ###SQL
 ###########################################################
