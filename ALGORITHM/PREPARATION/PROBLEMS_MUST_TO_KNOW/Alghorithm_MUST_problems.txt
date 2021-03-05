@@ -344,11 +344,16 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #2.A. 509. Fibonacci Number. bottop-up (tabulation)
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%23509_FIBONACCI_NUMBER_BOTTOM_UP_APPROACH
 
-#3.A. Climbing stairs (case: jumps 1 and 2). top-down (memoization)
+#3.A. Climbing stairs (case: jumps 1 or 2 stairs). top-down (memoization)
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%2370_CLIMBING_STAIRS_TOP_DOWN_APPROACH
 
-#3.A. Climbing stairs (case: jumps 1 and 2). bottom-up (tabulation)
+#3.A. Climbing stairs (case: jumps 1 or 2 stairs). bottom-up (tabulation)
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%2370_CLIMBING_STAIRS_BOTTOM_UP_APPROACH
+
+#4. Climbing stairs (case: jumps 1 or 2 or 3 stairs).
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/DYNAMIC_PROGRAMMING/STAIRCASE_THREE_STAIRS_BOTTOM_UP
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/DYNAMIC_PROGRAMMING/STAIRCASE_THREE_STAIRS_TOP_DOWN
+
 ###########################################################
 ###SQL
 ###########################################################
