@@ -47,3 +47,17 @@ Then some basic questions.. Normalization, Data warehousing definition., Asked m
 
 #3.#####################################################################
 https://leetcode.com/discuss/interview-experience/875585/amazon-sde-1-2-years-experienced-hyderabad
+
+#4.#####################################################################
+https://leetcode.com/discuss/interview-experience/752287/amazon-data-engineer-phone-interview
+
+I was asked a total of three questions on SQL and some questions on data warehousing
+
+Find the skip - level manager of each employee
+Find all books that are available in more than 50% of the languages? Optimize it use a single select statement
+Find current month rank v/s previous month rank for each product based on sales.
+DW :
+Difference between MPP and SMP databases
+Performance issues/optimization
+Fact and Dimension tables
+#####################################################################
