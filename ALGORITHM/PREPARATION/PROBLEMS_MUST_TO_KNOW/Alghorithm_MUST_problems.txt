@@ -356,6 +356,16 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/DYNAM
 
 #5. House robber
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN1_FIBONACCI_NUMBERS/%23198_HOUSE_ROBBER
+
+###########################################################
+###Dynamic Programming. Kadane’s algorithm. Pattern2
+###########################################################
+#1. Max product subarray
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN2_KADANE_ALGHORITHM/%2353_MAXIMUM_SUBARRAY
+
+#2. Best time to buy and sell stocks
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN2_KADANE_ALGHORITHM/%2353_MAXIMUM_SUBARRAY/%23121_BEST_TIME_TO_BUY_AND_SELL_STOCK
+
 ###########################################################
 ###SQL
 ###########################################################
