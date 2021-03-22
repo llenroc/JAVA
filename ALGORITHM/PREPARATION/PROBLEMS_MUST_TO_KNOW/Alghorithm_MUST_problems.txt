@@ -370,6 +370,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #1. Longest Common Subsequence
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN3_LOWEST_COMMON_SUBSEQUENCE/%231143_LONGEST_COMMON_SUBSEQUENCE
 
+2. Longest Common Substring <==> Maximum Length of Repeated Subarray
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN3_LOWEST_COMMON_SUBSEQUENCE/%23718_MAXIMUM_LENGTH_OF_REPEATED_SUBARRAY
 
 ###########################################################
 ###SQL
