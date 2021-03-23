@@ -230,6 +230,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #1. Meeting rooms
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_MERGE_INTERVALS/%23252_Meeting%20Rooms
 
+#2. Merge Intervals
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_MERGE_INTERVALS/%2356_MERGE_INTERVALS
 ###########################################################
 ###Heaps
 ###########################################################
