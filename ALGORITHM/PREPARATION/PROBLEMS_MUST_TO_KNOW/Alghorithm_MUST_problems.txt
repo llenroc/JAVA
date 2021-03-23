@@ -232,6 +232,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #2. Merge Intervals
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_MERGE_INTERVALS/%2356_MERGE_INTERVALS
+
+#3. Meeting Rooms II.
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_MERGE_INTERVALS/%23253_MEETING_ROOMS_II
 ###########################################################
 ###Heaps
 ###########################################################
@@ -252,6 +255,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #5. Kth Largest Element in a Stream
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%23703_KTH_LARGEST_ELEMENT_IN_STREAM
 
+#6. Meeting Rooms II.
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_MERGE_INTERVALS/%23253_MEETING_ROOMS_II
 ***********************************************************
 #B. Find min/max distance
 #7. K Closest Points to Origin
