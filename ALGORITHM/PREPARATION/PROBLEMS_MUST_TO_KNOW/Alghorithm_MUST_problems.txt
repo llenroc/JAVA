@@ -390,6 +390,20 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN3_LOWEST_COMMON_SUBSEQUENCE/%23718_MAXIMUM_LENGTH_OF_REPEATED_SUBARRAY
 
 ###########################################################
+###MISSING NUMBER. FAMOUS PROBLEM1
+###########################################################
+#1. Approach1. BitWise
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/MATH/%23268_MISSING_NUMBER_APPROACH1_BITWISE
+
+#2. Approach2. CyclicSort
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_CYCLIC_SORT/%23268_MISSING_NUMBER_APPROACH2_CYCLIC_SORT
+
+#3. Approach3. HashSet
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HASHMAP/%23268_MISSING_NUMBER_APPROACH3_HASHSET
+
+
+
+###########################################################
 ###SQL
 ###########################################################
 #1. How make [exists] and [not exists] condition at the same time
