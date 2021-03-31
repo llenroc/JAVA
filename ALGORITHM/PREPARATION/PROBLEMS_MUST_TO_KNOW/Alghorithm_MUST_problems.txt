@@ -108,6 +108,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #6. Palindrome number. Interesting approach how join together reversed numbers
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/MATH/%2392_PALINDROME_NUMBER
 
+#7. Missing Number. Approach1. BitWise
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/MATH/%23268_MISSING_NUMBER_APPROACH1_BITWISE
+
 ###########################################################
 ###Array
 ###########################################################
@@ -235,6 +238,14 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #3. Meeting Rooms II.
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_MERGE_INTERVALS/%23253_MEETING_ROOMS_II
+
+
+###########################################################
+###Cyclic Sort Pattern
+###########################################################
+#1. Missing number. Approach2
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_CYCLIC_SORT/%23268_MISSING_NUMBER_APPROACH2_CYCLIC_SORT
+
 ###########################################################
 ###Heaps
 ###########################################################
