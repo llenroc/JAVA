@@ -87,6 +87,13 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/TREE/FIND_PATH_FROM_ROOT_TO_NODE
 
 ###########################################################
+###Stack
+###########################################################
+#1. Valid Parentheses
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STACK/%2320_VALID_PARENTHESES
+
+
+###########################################################
 ###Math
 ###########################################################
 #1. Count prime numbers. The method [Sieve of Eratosthenes]
