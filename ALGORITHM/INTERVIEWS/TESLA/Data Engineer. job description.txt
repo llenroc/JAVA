@@ -1,0 +1,84 @@
+From: Oleksii Saiun <oleksiisaiun@gmail.com>
+Sent: Monday, April 5, 2021 9:57 AM
+To: Daniel Thompson <danielthompson@tesla.com>
+Subject: Re: Tesla Hiring Process
+Tesla is seeking a talented and motivated Data Engineer to join our Data and Analytics team at Tesla. We are building a state of the art analytics platform for business and operation intelligence. At Tesla, we have enormous amounts of data and we want to give meaning to it and help business users to make data driven decisions. Our platform will allow users to answer "what", "when" and "how" questions as well as allow them to ask "what if". This person will design, develop, maintain and support our Enterprise Data Warehouse & BI platform within Tesla using various data & BI tools and this position offers unique opportunity to make significant impact to the entire organization in developing data tools and driving data driven culture.
+
+
+
+Responsibilities:
+
+Work in a time constrained environment to analyze, design, develop and deliver Enterprise Data Warehouse solutions
+
+Create ETL/ELT pipelines using Python, Airflow
+
+Design, develop, maintain and support our Enterprise Data Warehouse & BI platform within Tesla using various data & BI tools
+
+Create real time data streaming and processing using Open source technologies like Kafka , Spark etc
+
+Build ad-hoc applications as needed to support more curious data users and to provide automation as possible
+
+Work with systems that handle sensitive data with strict SOX controls and change management processes
+
+Develop collaborative relationships and work with key business sponsors, IT resources to gather requirements and for the efficient resolution of requests.
+
+Provide timely and accurate estimates for newly proposed functionality enhancements
+
+Communicate technical and business topics, as appropriate, in a 360 degree fashion, when required; communicate using written, verbal and/or presentation materials as necessary.
+
+Develop, enforce, and recommend enhancements to Applications in the area of standards, methodologies, compliance, and quality assurance practices; participate in design and code walkthroughs.
+
+Utilize technical and domain knowledge to develop and implement effective solutions; provide hands on mentoring to team members through all phases of the Systems Development Life Cycle (SDLC) using Agile practices
+
+Take ownership of deployment and release process
+
+Keep up to date on relevant technologies and frameworks
+
+  
+
+Requirements:
+
+3+ years of experience in creating data pipelines using Python / Airflow is required
+
+Work experience with REST API’s and processing large number of files in Python / Java is required
+
+Experience with designing DataMart, Data Warehouse, database objects within relational databases MySQL, SQL Server, Vertica is required 
+
+Strong proficiency in SQL and query writing is required
+
+Familiarity with common API’s: REST, SOAP
+
+Strong Problem-Solving, Verbal and Written communication skills
+
+Excellent analytical, organizational skills and ability to work under pressure /deliver on tight deadlines is a must
+
+Strong experience in stellar dashboards and reports creation for C-level executives
+
+
+
+
+Nice to have:
+
+Experience with data science tools such as Pandas, Numpy, R
+
+3+ years of development experience in Open Source technologies like Python, Java is preferred
+
+Understanding of distributed computing, i.e. how HDFS, Spark and Presto work
+
+Proficient in Scala, Splunk
+
+Work experience with Python, SSIS, Informatica
+
+Experience in Big Data processing using Apache Hadoop/Spark ecosystem applications like Hadoop, Hive, Spark, Kafka and HDFS preferable
+
+Work experience with React JS, Node JS, Semantic UI / Bulma / Bootstrap CSS
+
+Work experience with Tableau
+
+Working with a system at scale and with Docker/Kubernetes/Jenkins CI/CD pipeline is preferred 
+
+Experience implementing dynamic UIs and working with D3 / NVD3/React is preferred
+
+Experience with Kafka or RabbitMQ messaging queues is preferred
+
+Experience with React, rest API / web development with Node JS framework is preferred
