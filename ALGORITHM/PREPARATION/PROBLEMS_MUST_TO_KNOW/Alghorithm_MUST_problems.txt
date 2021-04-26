@@ -407,6 +407,14 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 2. Longest Common Substring <==> Maximum Length of Repeated Subarray
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/DYNAMIC_PROGRAMMING/PATTERN3_LOWEST_COMMON_SUBSEQUENCE/%23718_MAXIMUM_LENGTH_OF_REPEATED_SUBARRAY
 
+
+###########################################################
+### BINARY SEARCH
+###########################################################
+#1. Binary search. Iterative approach
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/BINARY_SEARCH/%23704_BINARY_SEARCH_ITERATIVE
+
+
 ###########################################################
 ###MISSING NUMBER. FAMOUS PROBLEM1
 ###########################################################
