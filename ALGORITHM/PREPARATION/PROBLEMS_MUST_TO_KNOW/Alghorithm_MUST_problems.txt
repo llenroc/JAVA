@@ -414,6 +414,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #1. Binary search. Iterative approach
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/BINARY_SEARCH/%23704_BINARY_SEARCH_ITERATIVE
 
+#2. Binary search. Recursive approach
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/BINARY_SEARCH/%23704_BINARY_SEARCH_RECURSIVE
 
 ###########################################################
 ###MISSING NUMBER. FAMOUS PROBLEM1
