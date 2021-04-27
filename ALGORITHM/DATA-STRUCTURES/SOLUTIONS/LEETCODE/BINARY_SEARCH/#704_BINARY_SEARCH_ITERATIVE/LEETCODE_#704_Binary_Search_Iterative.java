@@ -13,11 +13,11 @@ class Solution {
             int middleIndex = (startIndex+endIndex)/2;
             if(target<nums[middleIndex])
             {
-               endIndex=endIndex-1; 
+               endIndex=middleIndex-1; 
             } else 
             if(target>nums[middleIndex])
             {
-               startIndex=startIndex+1; 
+               startIndex=middleIndex+1; 
             }
             else
             {
