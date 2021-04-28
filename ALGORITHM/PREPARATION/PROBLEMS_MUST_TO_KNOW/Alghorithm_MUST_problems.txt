@@ -423,6 +423,8 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #4. Find Smallest Letter Greater Than Target
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/BINARY_SEARCH/%23744_FIND_SMALLEST_LETTER_GREATER_THAN_TARGET
 
+#5. Find First and Last Position of Element in Sorted Array
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/BINARY_SEARCH/%2334_FIND_FIRST_AND_LAST_POSITION_OF_ELEMENT_IN_SORTED_ARRAY
 ###########################################################
 ###MISSING NUMBER. FAMOUS PROBLEM1
 ###########################################################
