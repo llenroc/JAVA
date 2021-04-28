@@ -420,6 +420,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #3. Search Insert Position
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/BINARY_SEARCH/%2335_SEARCH_INSERT_POSITION
 
+#4. Find Smallest Letter Greater Than Target
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/BINARY_SEARCH/%23744_FIND_SMALLEST_LETTER_GREATER_THAN_TARGET
+
 ###########################################################
 ###MISSING NUMBER. FAMOUS PROBLEM1
 ###########################################################
