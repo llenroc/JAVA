@@ -467,3 +467,6 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #5. Cumulative sum
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231479_FIND_CUMULATIVE_SALARY_OF_AN_EMPLOYEE
+
+#6. Delete uwing CTE("with clause")
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%23196_DELETE_DUPLICATE_EMAILS
