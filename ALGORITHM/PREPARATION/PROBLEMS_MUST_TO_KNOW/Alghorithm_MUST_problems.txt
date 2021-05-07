@@ -465,3 +465,5 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #4. Regular expression
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231517_FIND_USERS_WITH_VALID_E-MAILS
 
+#5. Cumulative sum
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231479_FIND_CUMULATIVE_SALARY_OF_AN_EMPLOYEE
