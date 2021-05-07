@@ -9,17 +9,17 @@ NOTE(!)leetcode test case has a wrong test case
 
 
 SELECT
-       ID AS Id
-      ,MONTH AS Month 
-      ,SUM(SALARY) OVER(PARTITION BY ID ORDER BY SALARY ASC) AS Salary 
+       ID
+      ,MONTH
+      ,SUM(SALARY) OVER(PARTITION BY ID ORDER BY MONTH ASC ROWS BETWEEN 2 PRECEDING AND 0 FOLLOWING) As Salary 
 FROM(      
   SELECT
          ID
         ,MONTH
         ,SALARY
-        ,ROW_NUMBER() OVER(PARTITION BY ID ORDER BY MONTH DESC) AS RN_MONTH
+        ,DENSE_RANK() OVER(PARTITION BY ID ORDER BY MONTH DESC) AS RN_MONTH /* i use the condition [2 PRECEDING AND 0 FOLLOWING], because the task requires to calc only for 3 month*/
   FROM Employee
 )
  T
 WHERE RN_MONTH>1
-ORDER BY 1 ASC, 2 DESC
+ORDER BY 1 ASC, 2 DESC;
