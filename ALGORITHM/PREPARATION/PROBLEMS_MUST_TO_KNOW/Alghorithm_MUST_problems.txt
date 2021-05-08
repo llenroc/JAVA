@@ -473,3 +473,6 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #7. Task "...find customers who have spent at least $100 in each month of June and July 2020.". It has EXISTS condition
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231511_CUSTOMER%20ORDER%20FREQUENCY
+
+#8.(!) consecutive numbers. find all numbers that appear at least three times consecutively
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%23180_CONSECUTIVE_NUMBERS
