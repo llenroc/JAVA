@@ -476,3 +476,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #8.(!) consecutive numbers. find all numbers that appear at least three times consecutively
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%23180_CONSECUTIVE_NUMBERS
+
+#9. Hierachy question. Table has two hierachies and cycle
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231270_ALL_PEOPLE_REPORT_TO_MANAGER_APPROACH1_CONNECT_BY
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/SQL/%231270_ALL_PEOPLE_REPORT_TO_MANAGER_APPROACH2_CTE
+theory:
+https://github.com/oleksiisaiun/MYDOC/blob/master/DB/RELATIONAL/SQL-general/SQL_questions.docx
