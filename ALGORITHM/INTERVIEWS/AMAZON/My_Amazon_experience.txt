@@ -1,0 +1,57 @@
+Amazon | Big Data Engineer II | Dallas,TX | May 2021
+
+Hi All,
+I am sharing my experience from my Amazon's phone interview for the position Big Data Engineer II in Dallas, TX.
+
+1.SQL:
+
+**d_customers**
++-------------+-----------------------+---------------------+
+| customer_id | membership_start_date | membership_end_date |
++-------------+-----------------------+---------------------+
+| 114 | 2015-01-01 | 2015-02-15 |
+| 116 | 2015-02-01 | 2015-03-15 |
+| 120 | 2015-02-15 | 2015-04-01 |
+| 221 | 2015-03-15 | 2015-10-01 |
+| 120 | 2015-05-15 | 2015-07-01 |
++-------------+-----------------------+---------------------+
+
+
+**d_shipments**
++-------------+------------+-----------------------+----------+
+| shipment_id | ship_date | receiving_customer_id | quantity |
++-------------+------------+-----------------------+----------+
+| 1 | 2015-02-13 | 114 | 2 |
+| 2 | 2015-03-01 | 116 | 4 |
+| 2 | 2015-03-01 | 116 | 1 |
+| 3 | 2015-06-01 | 116 | 1 |
+| 4 | 2015-03-01 | 120 | 6 |
+| 5 | 2015-10-01 | 120 | 3 |
+| 6 | 2015-03-01 | 321 | 10 |
++-------------+------------+-----------------------+----------+
+
+Populate **a_shipments**
++-----------+-----------+----------+----------+----------+
+| ship_date | customer_id | is_member | quantity |
++-----------+-----------+----------+----------+----------+
+
+the column [is_member]: if [ship_date] is between [membership_start_date] and [membership_end_date] then 'y',
+else 'N'
+sample of otput:
+2015-03-01 | 116 | Y | 5 |
+2015-06-01 | 116 | N | 1 |
+
+
+2. Coding task. Check whether a string is palindrome.
+   I have been asked to code a solution by iterative and recursive approach.
+
+3. Big Data questions:
+
+ 3.1. What format of files in Hadoop do I know? 
+      What is a difference between Avro and Parquet format?	  
+ 3.2. How compression is used in Avro and Parquet formats?
+ 3.3. Most difficult big data performance challenges you have faced and resolved?
+ 3.4. Spark optimization. Spark cost based optimizer
+
+In summary, no behavioral or Leadership Principles have be asked me at this stage, that really surprised me about the focus only on technical topics.
+However, the overall experience is very useful and positive.  The interviewers were friendly, supportive and open-mind in a communication
