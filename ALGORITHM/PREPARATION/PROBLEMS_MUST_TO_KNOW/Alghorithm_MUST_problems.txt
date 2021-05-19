@@ -369,7 +369,10 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
         *   "axbba" - we should skip [x] and move from the left to make sure it's a palindrome
         * That's why we will move from the left and from the right to hope it will return the true
 */
+#option1:
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STRING/%23680_VALID%20PALINDROME_II
+#option2:
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STRING/%23680_VALID_PALINDROME_II_OPTION2.
 ###########################################################
 ###String
 ###########################################################
