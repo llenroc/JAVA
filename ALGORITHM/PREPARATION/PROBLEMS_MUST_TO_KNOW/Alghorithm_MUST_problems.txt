@@ -356,10 +356,12 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #1. Palindrome number. Interesting approach how join together reversed numbers
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/MATH/%2392_PALINDROME_NUMBER
 
-#2. Valid Palindrome. Iteresting methods: Character.isLetterOrDigit(val) and Character.toLowerCase(val)
-https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STRING/%23125_VALID_NUMBER
+#2.1. Valid Palindrome.Iterative approach Iteresting methods: Character.isLetterOrDigit(val) and Character.toLowerCase(val)
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STRING/%23125_VALID_PALINDROME_ITERATIVE
+#2.2. Valid Palindrome.Recursive approach
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/STRING/%23125_VALID_PALINDROME_RECURSIVE
 
-#3. Valid Palindrome 2. 
+#3. Valid Palindrome II. 
        /* it's an interesting case when there is a mismatch. According to the task we can skip ignore one symbol
         *   if there is a mismatch. Now the question is what what to skip - "to the left" or "to the right"
         *  For example, 
