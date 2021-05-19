@@ -1,7 +1,7 @@
 /*
 2021-Feb-24. Oleksii Saiun.
 LeetCode_#680. Valid Palindrome II
-https://leetcode.com/problems/valid-palindrome/
+https://leetcode.com/problems/valid-palindrome-ii/
 */
 
 class Solution {
