@@ -1,0 +1,57 @@
+LinkedIn | Senior Data Engineer - Data Science| Seattle, WA | May 2021
+1. Coding
+Description: Given an m x n 2D binary grid which represents a map of '1's (land) and '0's (water), return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+
+Examples: 
+
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+
+2. SQL
+
+TABLE 1:  "old_status" - contains all LinkedIn members' latest push notification setting status. Unfortunately, the data in this table is outdated.
+
+ 
+member_id    old_status
+-------------------------------
+     1         on
+     2         off
+     3         on
+     4         off
+  
+ 
+
+TABLE 2: "actions" - all actions that members made in May (after the time period of 'status' table).
+(For the simplicity, Let's assume a member can have at most one action per day)
+ 
+member_id    date        action
+-------------------------------
+     1        5/2       turn_off
+     1        5/5       turn_on
+     2        5/3       turn_on
+     4        5/10      turn_on
+     4        5/13      turn_off
+  
+ 
+  
+/* EXPECTED OUTPUT */
+ 
+member_id   current_status
+---------------------------------
+     1            on
+     2            on
+     3            on
+     4            off
