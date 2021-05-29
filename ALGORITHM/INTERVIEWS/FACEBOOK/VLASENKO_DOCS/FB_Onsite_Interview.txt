@@ -1,0 +1,85 @@
+1st interview (tech)
+    - business subject: news feed
+        there are 5 steps user needs to perform to publish a news feed
+            1. click (initiate)
+            2. add a picture
+            3. select a picture
+            4. add text
+            5. post
+        
+        2-3 steps can be repeated multiple times
+        post is considered successful if step 5 is reached
+        user might abrupt at any stage
+        duration of the step = min(start_time) of the next step - min(start_time) of the step
+    - questions
+        - what metrics should we collect to give operational team some insights on how the feature is performing (to understand if there are any issues)?
+            (e.g., avg. duration of each step, track session id, step completion %)
+        - how would you visualize the metrics (+ over some period of time)?
+        - SQL: calculate an average duration of each step without the use of analytical functions
+        - Python (streaming): given that you have averaged durations for each step, recalculate the averages for incoming records
+                {"step_number": "average_duration"}
+                {"step1": 3.1, "step2": 2.9, ...}
+                def f(session_id, step_number, timestamp)
+
+                which data structure would you choose for storing intermediate results.
+                how do you hanle that this data structure not becomes the whole table itself.
+                
+
+
+2nd interview (tech):
+    - business subject: daily active users (DAU)
+    - questions
+        - given the graph of dependency DAU from time with couple of spikes (upwards and downwards), 
+            brainstorm the possible reasons of the spikes.
+          An interviewer was interested in hearing something about code with defects/bugs deployed on PROD.
+          After that he asked what are the possible solutions to fix, prevent such type of issues (e.g., data quality screens)
+    - SQL: given business rules about what is active/returning/churn/new user, calculate number of active/returning/churn/new users.
+            Based on the source table for the previous day (previous partition), 
+            recalculate and populate new table (new partition) using additional delta table with a new data for
+            input tables: users_20210526, current_users_20210527
+            output table: users_20210527
+    - Python: 
+        categories = {"all": ["marketing", "advertising"],
+                        "market": ["marketing"]}
+        data = {"marketing": [0,1,0,0,0,0,0],
+                "advertising": [1,1,0,0,0,0,0]}
+        calculate a rollup data structure with counts:
+            output = {"all": 2, "market": 1}
+
+        explanation:
+            "marketing": [0,1,0,0,0,0,0]  -- data points for the week
+            when we calculate counts for "all" category, we need to combine data points for underlying subcategories
+                "marketing":   [0,1,0,0,0,0,0]
+                "advertising": [1,1,0,0,0,0,0]
+                =
+                               [1,1,0,0,0,0,0]  (pick only one 1 for the day)
+
+3rd interview (behavioural/ownership)
+    - there are multiple requests from the users. How would you choose which one to work on?
+    - describe a case when you used information to influence some decision.
+    - describe your 90days plan starting from your first day at Facebook.
+    - there is a necessity to deliver some technical feature. 
+        How would you communicate it to the business (considering there are a lot of business tasks to be delivered)?
+    - why do you like data engineering?
+    - describe your most interesting project.
+
+4th inverview (data modeling)
+    - business subject: surge price.
+        brainstorm any possible reason for a surge price
+        why a surge price is used? (why it works)
+    - design a data model for a ride sharing app 
+        (that answers to 4-5 questions) 
+        you can extend it later if anything is missing.
+        
+        extension of the model was for two cases:
+            - we need to track many-to-many relationship between drivers and cars
+            - add location_type field into dim_location table
+        how many people have used an app (took a ride) during some time period?
+        how many users took a ride from or to "Airport" location?
+        how many users took a ride only from or to "Airport" location?
+        find driver IDs that have driven more than one car?
+        find car IDs that were driven by more than one driver?
+        find driver ID that did most of the rides for some time period.
+        
+        no need to use analytical functions.
+        maximum having clause.

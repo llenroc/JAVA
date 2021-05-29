@@ -1,0 +1,123 @@
+- count the number of times a character appears in a string
+- replace None with previous list item
+- Complete a function that returns a list containing all the mismatched words (case sensitive) between two given input strings 
+- Given a ´dictionary, print the key for nth highest value present in the dict. If there are more than 1 record present for nth highest value then sort the key and print the first one.
+
+
+
+Python
+
+Arrays / Lists
+
+    Given an array of integers, we would like to determine whether the array is monotonic (non-decreasing/non-increasing) or not.
+        https://leetcode.com/problems/monotonic-array/
+
+    how to find duplicates in an array
+        https://leetcode.com/problems/find-all-duplicates-in-an-array/?tab=Solutions
+    delete duplicates in a list
+
+    Find the max no from the given set of elements in an array (without using max function)
+    Find the minimum absolute difference between the set of elements of an array.
+        https://leetcode.com/problems/minimum-absolute-difference/
+    Given a number and an array find the sum of any 2 numbers in a list is equal to a given number.
+        https://leetcode.com/problems/two-sum/
+    Given a list of tuples of movie watched times, find how many unique minutes of the movie did the viewer watch e.g. [(0,15),(10,25)]. The viewer watched 25 minutes of the movie.
+        t = [(0, 10), (15, 25), (12, 20), (30, 48)]
+
+    reverse each word in an array
+        https://leetcode.com/problems/reverse-string/
+        https://leetcode.com/problems/reverse-string-ii/
+        https://leetcode.com/problems/reverse-words-in-a-string-iii/
+        https://leetcode.com/problems/reverse-words-in-a-string-ii/
+        https://leetcode.com/problems/reverse-words-in-a-string/
+
+    replace None with previous list item. this tricked me little bit and took some time to solve. [She asked me not to update the existing list instead create new one]
+        [None] ==> [None]
+        [] ==> []
+        [None,1,2] ==> [None,1,2]
+        [2,None,3] ==> [2,2,3]
+        [2,3,None,None,3] ==> [2,3,3,3]
+    Print the part of the array of numbers
+
+    1) Print Max element of a given list
+        https://leetcode.com/problems/kth-largest-element-in-an-array/
+    2) Print median of a given list
+    3) Print the first nonrecurring element in a list
+        https://leetcode.com/problems/first-unique-character-in-a-string/
+    4) Print the most recurring element in a list
+        https://leetcode.com/problems/top-k-frequent-elements/        
+    5) Greatest common Factor
+        https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/discuss/175845/C%2B%2BJavaPython-Greatest-Common-Divisor/182197/
+    Given two lists, find the uncommon words.
+
+Strings
+    Recursively parse a string for a pattern that can be either 1 or 2 characters long.
+        https://leetcode.com/problems/repeated-substring-pattern/
+    count the number of times a character appears in a string
+        find given char in string ( i did with for loop instead of count() or counter)
+        find s in missisipi
+        returns the number of times a given character occurs in the given string 
+            s1='missisipi'        
+    Count the number of times a substring appear in a string
+    Check the substring in the string
+    count each letter from a string
+    compare two string and find the word only in one string
+
+    Average length of letters to words.
+        some of the edge cases are having spaces in the beginning and end of the words, 
+        returning a float instead of int, 
+        returning None for blank input.
+
+    Given two sentences, you have to print the words those are not present in either of the sentences.(If one word is present twice in 1st sentence but not present in 2nd sentence then you have to print that word too)
+    3. Complete a function that returns a list containing all the mismatched words (case sensitive) between two given input strings 
+        # For example: # - string 1 : "Firstly this is the first string" 
+        # - string 2 : "Next is the second string" 
+        # # - output : ['Firstly', 'this', 'first', 'Next', 'second']
+
+Dicts / Hash maps    
+    Find the nth highest value given an unsorted dict. 
+    Given a ´dictionary, print the key for nth highest value present in the dict. If there are more than 1 record present for nth highest value then sort the key and print the first one.
+
+    Flatten a nested dictionary
+        initial_dictionary {'geeks': {'Geeks': {'for': 7}}, 'Geeks': {'for': {'geeks': 4, 'for': 1}}, 'for': {'geeks': {'Geeks': 3}}}
+        final_dictionary {'Geeks_for_for': 1, 'geeks_Geeks_for': 7, 'for_geeks_Geeks': 3, 'Geeks_for_geeks': 4}
+
+Misc
+
+    Given an IP address as an input string, validate it and return True/False
+        https://leetcode.com/problems/validate-ip-address/
+
+        Valid ip address, edge case to remember is if there are alphanumeric characters.
+        validate ip adress (like if it has 4 parts, with numeric not above 255 so on)
+    Given k numbers which are less than n, return the set of prime numbers among them
+        https://leetcode.com/problems/count-primes/
+
+
+    You have a 2-D array of friends like [['A','B'],['A','C'],['B','D'],['B','C'],['R','M'], ['S'],['P'], ['A']]
+        Find with highest neighbors
+        given a two dimensional list for example [[2,3],[3,4],[5]] person 2 is friends with 3 etc. 
+        find how many friends does each person has.  
+        note one person has no friends. 
+        there won't be repeat relationships like [A,B] and [B,A] and neither will there be more than 2 people in a relationship
+        
+        Write a function that creates a dictionary of how many friends each person has. People can have 0 to many friends. However, there won’t be repeat relationships like [A,B] and [B,A] and neither will there be more than 2 people in a relationship
+
+    
+    Count the neighbors of each node in a graph. input graph is a multidimensional list
+    Python graph node count    
+
+
+
+General
+        
+    Stack data structure follows which order? 
+    LIFO Queue data structure follows which order? 
+    FIFO Which data structure is used to store key value pairs? 
+    What is a loop that goes on forever?
+    What is a property graph?
+    Question on exceptions
+
+
+https://www.geeksforgeeks.org/facebook-interview-questions/?ref=rp
+https://practice.geeksforgeeks.org/explore/?company%5B%5D=Facebook&difficulty%5B%5D=-1&difficulty%5B%5D=0&page=1&sortBy=accuracy&company%5B%5D=Facebook
+https://www.geeksforgeeks.org/tag/facebook/
