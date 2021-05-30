@@ -278,6 +278,9 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 
 #6. Meeting Rooms II.
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_MERGE_INTERVALS/%23253_MEETING_ROOMS_II
+
+#7. Maximum Units on a Truck. Asked by Amazon question
+https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/HEAPS/%231710_MAXIMUM_UNITS_ON_TRUCK
 ***********************************************************
 #B. Find min/max distance
 #7. K Closest Points to Origin
