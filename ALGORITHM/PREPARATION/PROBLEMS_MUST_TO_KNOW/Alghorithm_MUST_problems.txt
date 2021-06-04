@@ -168,7 +168,7 @@ https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUT
 #1. Maximum Number of Vowels in a Substring
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_SLIDING_WINDOW/%231456_MAXIMUMNUMBEROFVOWELS_IN_SUBSTRING
 
-#2. Max Consecutive Ones numbers in a binary array
+#2. Max Consecutive Ones numbers in an array
 https://github.com/oleksiisaiun/JAVA/tree/master/ALGORITHM/DATA-STRUCTURES/SOLUTIONS/LEETCODE/PATTERN_SLIDING_WINDOW/%23485_MAX_CONSECUTIVE_ONES
 
 #3. Longest Substring Without Repeating Characters
