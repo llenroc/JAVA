@@ -6,6 +6,7 @@ https://leetcode.com/problems/remove-element/
 
 class Solution {
     public int removeElement(int[] nums, int val) {
+//pointer - is an index where element is not equal to [val] has to be placed	    
         int pointer=0;
         for(int j=0; j<nums.length; j++)
         {
