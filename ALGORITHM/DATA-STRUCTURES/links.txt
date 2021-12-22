@@ -57,6 +57,9 @@ http://cslibrary.stanford.edu/110/BinaryTrees.html#s1
 --Leetcode to Amazon, Facebook, Google
 https://www.youtube.com/c/KevinNaughtonJr/videos
 
+--Netflix:
+https://dou.ua/lenta/interviews/ukrainian-developer-at-netflix/
+
 --Heaps:
 https://www.youtube.com/watch?v=HqPJF2L5h9U
 
